@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Customer Page";
+}
+@if (!string.IsNullOrEmpty(ViewBag.Message) && ViewBag.Message == "success")
+{
+    <div class="alert alert-success" role="alert">
+        All Records inserted into database successfully
+    </div>
+}
+else if (!string.IsNullOrEmpty(ViewBag.Message) && ViewBag.Message == "empty")
+{
+    <div class="alert alert-danger" role="alert">
+        File is empty!...
+    </div>
+}
+<h2>Customer Excel Sheet Details</h2>
+<a class="btn btn-info" asp-action="Pagination" asp-controller="Customer">Go to Pagination page</a>
+<hr />
+<div class="row">
+    <div class="col-5">
+            <form method="post" asp-action="Index" aps-controller="Customer" enctype="multipart/form-data">
+                <div class="form-group">
+                     <div class="col-md-10">
+                         <h3>Upload File</h3>
+                         <input type="file" class="form-control" name="formFile" multiple="multiple" />
+
+                     </div>
+                     <div>
+                         <input type="submit" class="btn btn-secondary" value="Upload"  />
+                     </div>
+                </div>
+            </form>
+    </div>
+
+</div>

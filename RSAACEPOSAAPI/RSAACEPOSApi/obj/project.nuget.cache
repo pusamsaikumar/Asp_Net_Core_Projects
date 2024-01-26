@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "WbfwMPwsC16R4Jbm2O5d0jxmnRpNvymab9T0FC7XYh7e8zP37vveh/GlLQHtLZQZ6MMuB441w/iECRGXmalCxg==",
+  "success": true,
+  "projectFilePath": "D:\\csharpprojects\\RSAACEPOSApi\\RSAACEPOSApi\\RSAACEPOSApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\8.1.1\\amazon.lambda.aspnetcoreserver.8.1.1.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.aspnetcoreserver.hosting\\1.6.1\\amazon.lambda.aspnetcoreserver.hosting.1.6.1.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.runtimesupport\\1.10.0\\amazon.lambda.runtimesupport.1.10.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.0\\amazon.lambda.serialization.systemtextjson.2.4.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.logging\\2.1.0\\microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.0\\microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Veritra\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

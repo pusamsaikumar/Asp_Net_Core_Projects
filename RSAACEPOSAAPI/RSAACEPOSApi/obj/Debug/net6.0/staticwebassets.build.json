@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "H8pA9h9Ox0vqE3lbROUbdCSSDtNmKjbI1JSjIKrX188=",
+  "Source": "RSAACEPOSApi",
+  "BasePath": "_content/RSAACEPOSApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RSAACEPOSApi\\wwwroot",
+      "Source": "RSAACEPOSApi",
+      "ContentRoot": "D:\\csharpprojects\\RSAACEPOSApi\\RSAACEPOSApi\\wwwroot\\",
+      "BasePath": "_content/RSAACEPOSApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\csharpprojects\\RSAACEPOSApi\\RSAACEPOSApi\\wwwroot\\ConfigSettings.json",
+      "SourceId": "RSAACEPOSApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\csharpprojects\\RSAACEPOSApi\\RSAACEPOSApi\\wwwroot\\",
+      "BasePath": "_content/RSAACEPOSApi",
+      "RelativePath": "ConfigSettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ConfigSettings.json"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net7.0\BusinessLoginLayer.deps.json
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net7.0\BusinessLoginLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net7.0\BusinessLoginLayer.pdb
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.csproj.AssemblyReference.cache
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.AssemblyInfoInputs.cache
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.AssemblyInfo.cs
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.csproj.CoreCompileInputs.cache
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\refint\BusinessLoginLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.pdb
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\ref\BusinessLoginLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net7.0\DataAccessLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net7.0\BusinessLoginLayer.csproj.CopyComplete

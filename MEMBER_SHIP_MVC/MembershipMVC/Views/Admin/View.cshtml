@@ -1,0 +1,58 @@
+﻿@model MembershipMVC.Models.LoginViewModel;
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>View</h1>
+<hr/>
+
+<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">View Profile</h2>
+        <form asp-action="View" method="Get">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" disabled />
+                <span asp-validation-for="FirstName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" disabled />
+                <span asp-validation-for="LastName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" disabled />
+                <span asp-validation-for="Email" class="text-danger" />
+            </div>
+            <div class="mb-1">
+             @*   <label asp-for="Password" class="control-label"></label>*@
+                @*<input asp-for="Password" class="form-control" type="text" disabled />*@
+               @* <span asp-validation-for="Password" class="text-danger" />*@
+                <input asp-for="Password" class="form-control" type="hidden" disabled />
+            </div>
+
+            <div class="mb-1">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" disabled />
+                <span asp-validation-for="PhoneNumber" class="text-danger" />
+            </div>
+
+          
+        </form>
+    </div>
+
+  
+
+</div>
+<button asp-action="Index" asp-controller="Admin" class="btn btn-primary" onclick="location.href='@Url.Action("Dashboard","Admin")'">Back to Dashboard</button>
+@section scripts {
+    @* <partial name="_ValidationScriptsPartial"/>*@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

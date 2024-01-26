@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "ExcelToDb";
+}
+@if(!string.IsNullOrEmpty(ViewBag.Message) && ViewBag.Message =="success"){
+    <div class="alert alert-success" role="alert">
+        All Records inserted into database successfully
+    </div>
+}
+else if (!string.IsNullOrEmpty(ViewBag.Message) && ViewBag.Message == "empty")
+{
+    <div class="alert alert-danger" role="alert">
+        File is empty!...
+    </div>
+}
+<h1>Excel To Database</h1>
+<hr/>
+
+<div class="container">
+    <form method="post" asp-action="ExcelToDb" asp-controller="Home" enctype="multipart/form-data">
+        <div class="form-group">
+            <label class="form-label">Select File</label>
+            <input type="file" name="file" class="form-control" />
+        </div>
+        <div class="mt-3 p-5">
+            <button type="submit" class="btn btn-primary">Upload to database</button>
+        </div>
+    </form>
+</div>
+

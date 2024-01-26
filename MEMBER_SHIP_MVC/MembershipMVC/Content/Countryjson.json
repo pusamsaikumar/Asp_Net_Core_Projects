@@ -1,0 +1,16 @@
+{
+  "countries": [
+    {
+      "country": "afghanistan",
+      "states": [ "Ghanzi", "Farah", "Bamian" ]
+    },
+    {
+      "country": "India",
+      "states": [
+        "Andhrapradesh",
+        "Telangana",
+        "UtharPradesh"
+      ]
+    }
+  ]
+}

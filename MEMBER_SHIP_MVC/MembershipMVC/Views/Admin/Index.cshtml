@@ -1,0 +1,143 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<ApplicationUser> signInManager;
+@inject UserManager<ApplicationUser> userManager;
+@model MembershipMVC.Models.ApplicationUser;
+
+@{
+    ViewData["Title"] = "Admin Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var successMessage = TempData["successMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>@successMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+else if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+
+<h2> Account Details</h2>
+
+
+
+@*
+    <dl class="list-inline-item">
+
+        <dt class="list-inline-item">
+            @Html.DisplayNameFor(m => m.UserName)
+        </dt>
+
+        <dd class="list-inline-item">
+            @Html.DisplayFor(m=> m.UserName)
+    </dd>
+    <br />
+
+        <dt class="list-inline-item">
+            @Html.DisplayNameFor(m => m.FirstName)
+        </dt>
+        <dd class="list-inline-item">
+            @Html.DisplayFor(m=> m.FirstName)
+        </dd> <br/>
+
+        <dt class="list-inline-item">
+            @Html.DisplayNameFor(m => m.LastName)
+        </dt>
+        <dd class="list-inline-item">
+            @Html.DisplayFor(m=> m.LastName)
+    </dd>
+    <br />
+        <dt class="list-inline-item">
+            @Html.DisplayNameFor(m => m.Email)
+        </dt>
+        <dd class="list-inline-item">
+            @Html.DisplayFor(m=> m.Email)
+        </dd>
+    <br />
+        <dt class="list-inline-item">
+            @Html.DisplayNameFor(m => m.PhoneNumber)
+        </dt>
+        <dd class="list-inline-item">
+        @Html.DisplayFor(m=> m.PhoneNumber)
+                </dd>
+
+    </dl>*@
+
+      
+ 
+
+
+<div class="container border-2 mb-2">
+   @* @if (signInManager.IsSignedIn(User))
+    {
+        <div class="container border-2 border-secondary bg-danger text-white p-2" > 
+          
+            <div>
+                <label> First Name: </label>
+             <span>@userManager.GetUserAsync(User).Result!.FirstName</span>
+            
+            </div>
+            <div>
+                <label> Last Name: </label>
+              <span>@userManager.GetUserAsync(User).Result!.LastName</span>
+               
+            </div>
+            <div>
+                <label> Email Address: </label>
+               <span>@userManager.GetUserAsync(User).Result!.Email</span>
+               
+            </div>
+            <div>
+                <label> Phone Number: </label>
+               <span>@userManager.GetUserAsync(User).Result!.PhoneNumber</span>
+               
+            </div>
+        
+        </div>
+    }*@
+    @if (Model != null && userManager.GetUserAsync(User).Result!.Id !=null )
+    {
+        <div class="container border-2 border-secondary bg-danger text-white p-2">
+           <div>
+                <label>First Name :</label>
+                <span>@Model.FirstName</span>
+           </div>
+            <div>
+                <label>Last Name :</label>
+                <span>@Model.LastName</span>
+            </div>
+
+            <div>
+                <label>Email :</label>
+                <span>@Model.Email</span>
+            </div>
+
+            <div>
+                <label>Phone Number :</label>
+                <span>@Model.PhoneNumber</span>
+            </div>
+
+         </div>
+       
+    }  else
+    {
+        <p> No User Details</p>
+    }
+
+    
+
+
+     </div>
+     <div>
+             <button asp-action="Index" asp-controller="Admin" class="btn btn-primary" onclick="location.href='@Url.Action("Dashboard","Admin")'">Back to Dashboard</button>
+     </div>
+

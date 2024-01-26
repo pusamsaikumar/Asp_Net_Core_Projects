@@ -1,0 +1,187 @@
+﻿@model MembershipMVC.Models.Edit;
+@*@model ApplicationUser;*@
+@{
+    ViewData["Title"] = "EditProfile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>EditProfile</h1>
+<hr />
+
+
+<div class="row d-flex align-items-center justify-content-center mt-5">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Register</h2>
+
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post ,  new {@id = "editForm"}))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.FirstName)</label>
+                @* <div>
+            @Html.TextBoxFor(expression:m => m.FirstName,htmlAttributes:new {@class ="form-control"})
+
+            </div>*@
+
+
+
+
+                <input class="text-box form-control" id="FirstName" required name="FirstName" type="text" onkeyup="OnChangeHandler()">
+                <span id="firstname" class="text-danger"></span>
+                @* <span class="text-danger">@Html.ValidationMessageFor(m=>m.Username)</span>*@
+
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.LastName)</label>
+
+
+                <input class="text-box form-control" required id="LastName" name="LastName" type="text" onkeyup="onChangelast()">
+                <span id="lastname" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.LastName)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.Email)</label>
+
+
+                <input class="text-box form-control" required id="Email" name="Email" type="email" onkeyup="onChangeEmail()">
+                <span id="email" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.Email)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+               
+
+
+                <input class="text-box form-control" required id="Password" name="Password" type="hidden" value="" onkeyup="onChangePassword()">
+            
+
+
+            </div>
+           
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.PhoneNumber)</label>
+
+
+                <input class="text-box form-control" required id="PhoneNumber" name="PhoneNumber" type="text" value="" onkeyup="onChangePhone()">
+                <span id="phonenumber" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.PhoneNumber)</span>*@
+
+
+            </div>
+
+            <div class="row">
+               
+                <div class="col-4">
+                    <input type="submit" value="Register" onclick="validateForm();" />
+                </div>
+            </div>
+           
+        }
+        @*   <form asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-1">
+        <label asp-for="Username" class="control-label"></label>
+        <input asp-for="Username" class="form-control" data-val-required="please enter username" />
+
+        <span asp-validation-for="Username" class="text-danger" />
+        </div>
+
+
+
+        <div class="mb-1">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" class="form-control" required="Please enter password" />
+        <span asp-validation-for="Password" class="text-danger" />
+        </div>
+        <div class="mb-1 form-check">
+        <label class="form-check-label">
+        <input asp-for="RememberMe" class="form-check-input" />@Html.DisplayNameFor(e => e.RememberMe)
+        </label>
+        </div>
+        <div class="row">
+        <div class="col-8">
+        <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't h ave account?</a>
+        </div>
+        <div class="col-4">
+        <input type="submit" value="Login" />
+        </div>
+        </div>
+        <div>
+        <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+        </div>
+        </form>*@
+    </div>
+</div>
+
+@*<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Edit Profile</h2>
+        <form asp-action="EditProfile" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger" />
+            </div>
+
+            <div class="mb-1">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger" />
+            </div>
+
+            <div class="row">
+               
+                <div class="col-4">
+                    <input type="submit" value="Save" class="btn btn-secondary" onclick="return confirm('Are you sure?')" />
+                </div>
+         
+            </div>
+        </form>
+    </div>
+
+
+
+</div>*@
+<button asp-action="Index" asp-controller="Admin" class="btn btn-primary" onclick="location.href='@Url.Action("Dashboard","Admin")'">Back to Dashboard</button>
+@section scripts {
+    @* <partial name="_ValidationScriptsPartial"/>*@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $("body").on("submit", "#editForm", function () {
+            return confirm("Do you want to edit?");
+        });
+        function allvalidate() {
+            var validated = true;
+            if (!validate()) validated = false;
+            if (!checkAge(age)) validated = false;
+            if (!checkuser(email)) validated = false;
+
+            if (validated)
+                $('[type="submit"]').submit();
+        }
+    </script>
+}

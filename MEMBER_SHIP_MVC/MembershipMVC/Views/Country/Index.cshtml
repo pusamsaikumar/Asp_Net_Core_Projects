@@ -1,0 +1,29 @@
+﻿@model MembershipMVC.Models.Countries;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Display json file data</h1>
+<hr/>
+
+<div>
+    <table class="table table-responsive table-hover">
+        <thead>
+           <tr class="table-active">
+                <th>Country</th>
+                <th>State</th>
+           </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.countries)
+            {
+                <tr>
+                   <td>@item.Country</td>
+                   <td>@item.States[0]</td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+</div>
+

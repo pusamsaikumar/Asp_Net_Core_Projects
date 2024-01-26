@@ -1,0 +1,30 @@
+﻿@model List<MembershipMVC.Models.PhotoViewModel>;
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>Get all  images</h1>
+<hr />
+<div class="container">
+    <ul class="row feature-list feature-list-sm">
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <li class="col-12 col-md-6 col-lg-4" style="list-style : none">
+                    <div class="card">
+                        <img src="@item.Image" class="card-img-top" />
+                        <div class="card-footer">
+                            <a asp-action="EditImage" asp-controller="Home" class="btn btn-secondary" asp-route-id="@item.Id">Edit</a>
+                            <a asp-action="DeleteImg" asp-controller="Home" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
+                        </div>
+                    </div>
+
+                </li>
+            }
+        }
+    </ul>
+   
+</div>
+
+

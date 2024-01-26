@@ -1,0 +1,13 @@
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.AssemblyInfoInputs.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.AssemblyInfo.cs
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.csproj.CoreCompileInputs.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net7.0\CommonLayer.deps.json
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net7.0\CommonLayer.runtimeconfig.json
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net7.0\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net7.0\CommonLayer.pdb
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\refint\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.pdb
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\CommonLayer.genruntimeconfig.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net7.0\ref\CommonLayer.dll

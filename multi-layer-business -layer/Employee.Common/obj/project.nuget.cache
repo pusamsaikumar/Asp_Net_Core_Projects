@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "A4gftO+RUq7Z8mrXEGnwY2hEyOa7TMCwuct3gNpQC9AfPgzBZSRAYMOLPrcpWO5bUqAudPeLYeCbEp7DivJVJA==",
+  "success": true,
+  "projectFilePath": "D:\\csharpprojects\\Multilayer\\Employee.Common\\Employee.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Veritra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

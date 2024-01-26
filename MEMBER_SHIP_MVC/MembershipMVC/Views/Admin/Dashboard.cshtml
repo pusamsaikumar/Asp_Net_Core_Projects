@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ApplicationUser>;
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var successMessage = TempData["successMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>@successMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+else if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+
+<h1>List of Users</h1>
+
+
+<a asp-action="register" asp-controller="account"  class="btn btn-secondary">Add New User</a>
+<hr />
+<table class="table table-responsive table-hover">
+    <thead>
+        <tr class="table-active">
+            <th>Id</th>
+             <th>First Name</th>
+            <th>Last Name</th>
+            <th> Email</th>
+            <th>Phone Number</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                    <td>@item.PhoneNumber</td>
+                    
+                         <td>
+                        <div class="btn btn-group-sm">
+                            <a asp-action="View" asp-controller="Admin" class="btn btn-secondary" asp-route-id="@item.Id">View</a>
+                            @*<a asp-action="Index" asp-controller="Admin" class="btn btn-secondary" asp-route-id="@item.Id">View</a>*@
+                            <a asp-action="Settings" asp-controller="Admin" class="btn btn-primary" asp-route-id="@item.Id">Edit</a>
+                           @* <a asp-action="EditProfile" asp-controller="Admin" class="btn btn-primary" asp-route-id="@item.Id">Edit</a>*@
+                            <a asp-action="DeleteUser" asp-controller="Admin" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
+                        </div>
+                    </td>
+                     
+                </tr>
+            }
+        }
+        else
+        {
+           <tr>
+               <td>
+                    No Users
+               </td>
+           </tr>
+        }
+    </tbody>
+</table>

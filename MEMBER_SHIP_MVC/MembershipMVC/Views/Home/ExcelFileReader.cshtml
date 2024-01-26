@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Excel File Reader";
+
+}
+<h2>Excel File Reader</h2>
+<a asp-action="ExcelToDb" asp-controller="Home" class="btn btn-info">Excel To DataBase</a>
+
+    <hr />
+
+
+<div class="container">
+  
+        <form method="post" asp-action="ExcelFileReader" asp-controller="Home" enctype="multipart/form-data">
+                
+            <div class="row">
+                <label class="form-label">Select File</label>
+                <input type="file" name="file" class="form-control" />
+            </div>
+            <div class="mt-5 p-2">
+               <button class="btn btn-secondary" type="submit">Upload File</button>
+            </div>
+        </form>
+
+        <div>
+            <table class="table table-responsive table-hover">
+                <thead>
+                    <tr>
+
+                    @if (ViewBag.ExcelData != null && ViewBag.ExcelData.Count > 0)
+                    {
+                        @foreach (var header in ViewBag.ExcelData[0])
+                        {
+                            <th>@header</th>
+                        }
+                    }
+                </tr>
+                </thead>
+                <tbody>
+                   
+                @if (ViewBag.ExcelData != null && ViewBag.ExcelData.Count > 1)
+                {
+                    for (int i = 1; i < ViewBag.ExcelData.Count; i++)
+                    {
+                        <tr>
+                            @foreach(var cell in ViewBag.ExcelData[i])
+                            {
+                                <td>@cell</td>
+                            }
+                        </tr>
+                    }
+                }
+               
+                </tbody>
+            </table>
+        </div>
+</div>

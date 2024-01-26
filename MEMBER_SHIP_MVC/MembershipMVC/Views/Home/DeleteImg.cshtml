@@ -1,0 +1,26 @@
+﻿@model MembershipMVC.Models.PhotoViewModel;
+@{
+    ViewData["Title"] = "DeleteImg";
+}
+
+<h1>Delete Image details</h1>
+
+<div class="container">
+    <form asp-action="DeleteImg" method="post" asp-controller="Home" enctype="multipart/form-data">
+       @* <div class="form-group">
+            <label asp-for="Image" class="form-label">Image</label>
+            <input type="file" class="form-control" asp-for="Image" />
+        </div>*@
+        <div>
+            <img src="@Model.Image" width="300" height="300" />
+        </div>
+        <div class="form-group">
+            
+            <input type="hidden" class="form-control" asp-for="Id" />
+        </div>
+        <button type="submit" class="btn btn-primary"> Delete</button>
+    </form>
+
+
+</div>
+

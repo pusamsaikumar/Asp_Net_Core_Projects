@@ -1,0 +1,225 @@
+﻿@model MembershipMVC.Models.Login;
+@{
+    ViewData["Title"] = "Login";
+
+    var successMessage = TempData["successMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>@successMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+else if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+<hr />
+@*C- SHARP VALIDATIONS*@
+@*<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Login</h2>
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger" />
+            </div>
+            <div class="mb-1 form-check">
+                <label class="form-check-label">
+                    <input asp-for="RememberMe" class="form-check-input" />@Html.DisplayNameFor(e => e.RememberMe)
+                </label>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't h ave account?</a>
+                </div>
+                <div class="col-4">
+                    <input type="submit" value="Login" />
+                </div>
+            </div>
+            <div>
+                <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+</div>*@
+
+
+@*CUSTOM VALIDATIONS*@
+<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Login</h2>
+
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+          @*  @Html.ValidationSummary(true)*@
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.Username)</label>
+               @* <div>
+                    @Html.TextBoxFor(expression:m => m.Username,htmlAttributes:new {@class ="form-control"})
+                 
+                </div>*@
+              
+        
+
+                <div class="editor-field">
+                    <input class="text-box form-control" id="Username" required  value=""  name="Username" type="text" onkeyup="onChangeEmail()"  >
+                    <span id="username" class="text-danger"></span>
+                   @* <span class="text-danger">@Html.ValidationMessageFor(M => M.Username)</span>*@
+                </div>
+
+               
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.Password)</label>
+
+
+                <input class="text-box form-control" id="Password" required name="Password" type="password" onkeyup="onChangePassword()">
+                <span id="password" class="text-danger"></span>
+               @* <span class="text-danger">@Html.ValidationMessageFor(m=>m.Password)</span>*@
+
+
+            </div>
+            <div class="mb-1 form-check">
+                <label class="form-check-label">
+                    <input asp-for="RememberMe" class="form-check-input" />@Html.DisplayNameFor(e => e.RememberMe)
+                </label>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't h ave account?</a>
+                </div>
+                <div class="col-4">
+                    <input type="submit" value="Login" onclick="validateForm()" />
+                </div>
+            </div>
+           @* <div>
+                <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+            </div>*@
+        }
+     @*   <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" data-val-required="please enter username" />
+               
+                <span asp-validation-for="Username" class="text-danger" />
+            </div>
+     
+                              
+            
+            <div class="mb-1">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" required="Please enter password" />
+                <span asp-validation-for="Password" class="text-danger" />
+            </div>
+            <div class="mb-1 form-check">
+                <label class="form-check-label">
+                    <input asp-for="RememberMe" class="form-check-input" />@Html.DisplayNameFor(e => e.RememberMe)
+                </label>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't h ave account?</a>
+                </div>
+                <div class="col-4">
+                    <input type="submit" value="Login" />
+                </div>
+            </div>
+            <div>
+                <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+            </div>
+        </form>*@
+    </div>
+</div>
+
+@section scripts {
+
+ 
+    @* <partial name="_ValidationScriptsPartial"/>*@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+     
+
+    }
+
+    <script type="text/javascript">
+
+
+
+
+
+        function validateForm() {
+       
+            // name
+         
+            var EmailAddress = document.getElementById("Username").value;
+            var pass = document.getElementById("Password").value;
+          
+
+            // error
+
+            var Email = document.getElementById("username");
+            var Password = document.getElementById("password");
+     
+
+          
+            Email.innerHTML = "";
+            Password.innerHTML = "";
+           
+            var expr = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            var validMobile = /^\(? ([0 - 9]{ 3 }) \)?[-. ] ? ([0 - 9]{ 3 })[-. ] ? ([0 - 9]{ 4 }) $/
+            if (!expr.test(EmailAddress)) {
+                Email.innerHTML = "Invalid email address.";
+            }
+           
+            
+            if (EmailAddress == "") {
+                Email.innerHTML = "Please Enter Email Address.";
+            }
+            if (pass == "") {
+                Password.innerHTML = "Please Enter Password";
+            }
+           
+        }
+       
+        function onChangeEmail() {
+            var EmailAddress = document.getElementById("Username").value;
+            var Email = document.getElementById("username");
+            if (EmailAddress != "") {
+                Email.innerHTML = "";
+            } else {
+                Email.innerHTML = "Please Enter User Name";
+            }
+        }
+        function onChangePassword() {
+            var pass = document.getElementById("Password").value;
+            var Password = document.getElementById("password");
+
+            if (pass != "") {
+                Password.innerHTML = "";
+            } else {
+                Password.innerHTML = "Please Enter password";
+            }
+        }
+
+       
+    </script>
+   }

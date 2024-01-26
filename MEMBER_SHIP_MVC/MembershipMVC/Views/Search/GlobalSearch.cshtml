@@ -1,0 +1,79 @@
+﻿@model List<MembershipMVC.Models.ExcelFileModels.Customer>;
+
+
+<html>
+<head>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet" />
+</head>
+<body>
+    @*@RenderBody()*@
+    
+
+    <div class="container">
+
+      <form  method="get" asp-action="GlobalSearch" asp-controller="Search">
+         <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-end align-items-center mb-2 g-2">
+                        <span>Customer Name :</span>
+                        <input id="GridSearch" placeholder="search here..." type="text" name="searchString" value="@ViewData["filterString"]" />
+                        <input type="submit" value="submit" class="btn btn-info" />
+                    </div>
+                </div>
+                <div>
+                    @(
+                        Html.Grid(Model).Build((columns) =>
+                        {
+                            columns.Add(model => Html.CheckBox("Check_" + model.Id)).Titled(Html.CheckBox("CheckAll"));
+                            columns.Add().RenderedAs((model, row) => row + 1).Titled("#").Css("text-center");
+
+                            //columns.Add(Model => Model.Id).Titled("Id");
+
+                            columns.Add(Model => Model.FirstName).Titled("FirstName");
+                            columns.Add(Model => Model.LastName).Titled("LastName");
+                            columns.Add(Model => Model.Job).Titled("Job");
+                            columns.Add(Model => Model.Amount).Titled("Amount");
+                            columns.Add(Model => Model.Tdate).Titled("Tdate").Formatted("{0:d}");
+
+                        })
+                        .Filterable()
+                        //.Pageable()
+                        .Pageable(pager =>
+                        {
+                            pager.PageSizes = new Dictionary<int, string> { { 0, "All" }, { 2, "2" }, { 4, "4" } };
+                            pager.ShowPageSizes = true;
+                            pager.PagesToDisplay = 3;
+                            pager.CurrentPage = 2;
+                            pager.RowsPerPage = 2;
+                        })
+                        .Using(GridFilterMode.Row)
+                        .Sortable()
+                        .Empty("No data available here.....")
+                        )
+                </div>
+
+            </div>
+      </form>
+
+    </div>
+
+    <script src="~/js/mvc-grid/mvc-grid.js"></script>
+    <script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+        document.getElementById("CheckAll").addEventListener("change", function () {
+            document.querySelectorAll("[id^='Check_'").forEach(checkbox => checkbox.checked = this.checked);
+        });
+
+                // search
+        //document.getElementById("GridSearch").addEventListener("input", function () {
+        //    const grid = new MvcGrid(document.querySelector(".mvc-grid"));
+
+        //    grid.url.searchParams.set("search", this.value);
+
+        //    grid.reload();
+        //});
+
+    </script>
+
+</body>
+</html>

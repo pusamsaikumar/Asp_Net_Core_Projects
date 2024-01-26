@@ -1,0 +1,12 @@
+D:\csharpprojects\Multilayer\Employee.Common\bin\Debug\net6.0\Employee.Common.deps.json
+D:\csharpprojects\Multilayer\Employee.Common\bin\Debug\net6.0\Employee.Common.dll
+D:\csharpprojects\Multilayer\Employee.Common\bin\Debug\net6.0\Employee.Common.pdb
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.csproj.AssemblyReference.cache
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.AssemblyInfoInputs.cache
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.AssemblyInfo.cs
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.csproj.CoreCompileInputs.cache
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.dll
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\refint\Employee.Common.dll
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\Employee.Common.pdb
+D:\csharpprojects\Multilayer\Employee.Common\obj\Debug\net6.0\ref\Employee.Common.dll

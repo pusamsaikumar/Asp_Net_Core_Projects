@@ -1,0 +1,202 @@
+﻿@model MembershipMVC.Models.Register;
+@{
+    ViewData["Title"] = "CreateUser";
+  
+    var successMessage = TempData["successMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+    <style type="text/css">
+
+        label#FirstName-error, label#LastName-error, label#Email-error, label#Password-error, label#ConfirmPassword-error,
+        label#PhoneNumber-error {
+            color: #ff0000;
+        }
+
+    </style>
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>@successMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+else if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+
+<h1>Create User</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+          
+           <form method="post" id="register-form">
+            <div class="row g-3">
+
+            <div class="col-sm-6">
+            <label for="FirstName" class="form-label"> First Name</label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Enter First Name" >
+
+            </div>
+            <div class="col-sm-6">
+            <label for="LastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="LastName" placeholder="Enter Last Name"  name="LastName">
+
+            </div>
+
+            </div>
+            <div class="row">
+            <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Enter your email" name="Email">
+
+            </div>
+            <div class="row">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Password" placeholder="Enter your password" name="Password">
+
+            </div>
+
+            <div class="row">
+            <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="ConfirmPassword" placeholder="Enter your  confirm password" required >
+
+            </div>
+            <div class="row">
+                    <label for="PhoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="PhoneNumber" placeholder="Enter your phone number" name="PhoneNumber">
+
+            </div>
+            <div class="form-group">
+            <button type="submit" class="btn btn-primary" id="saveForm">Save</button>
+            </div>
+           
+              
+            </form>
+
+        </div>
+</div>
+</div>
+    @section scripts {
+        @* <partial name="_ValidationScriptsPartial"/>*@
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    <script>
+        $(document).ready(function () {
+            $('#saveForm').click(function () {
+
+
+                $('#register-form').validate({
+                    rules: {
+                        FirstName: {
+                            required: true
+                        },
+                        LastName: {
+                            required: true
+                        },
+                        Email: {
+                            required: true
+                        },
+                        Password: {
+                            required: true
+                        },
+                        ConfirmPassword: {
+                            //required: true
+                             equalTo: "#Password"
+                        },
+                        PhoneNumber: {
+                            required: true,
+                            maxlength:10,
+                            digits: true
+                        }
+                     
+                    },
+                    messages: {
+                        FirstName: {
+                            required: "The First Name is Required"
+                        },
+                        LastName: {
+                            required: "The  last Name is Required"
+                        },
+                        Email: {
+                            required: "The  Email is Required"
+                        },
+                        Password: {
+                            required: "The  Password is Required"
+                        },
+                        ConfirmPassword: {
+                           // required: "The  ConfirmPassword is Required"
+                            equalTo :"Not Matched"
+                        },
+
+                        PhoneNumber: {
+                            required: "The  Phone Number is Required",
+                            maxlength:"The Phone Number must be 10 digits",
+                            digits: "The Phone number require digits only"
+                        }
+
+                    },
+                    submitHandler: function (form) {
+                      
+                        var form = $("#register-form");
+                        var fname = $('#FirstName').val();
+                        var lname = $('#LastName').val();
+                        var email = $('#Email').val();
+                        var password = $('#Password').val();
+                        // var cnfpasw = $('#confirmpassword').val();
+                        var phone = $('#PhoneNumber').val();
+
+                        var obj = {
+                            FirstName: fname,
+                            LastName: lname,
+                            Email: email,
+                            Password: password,
+                            // ConfirmPassword: cnfpasw,
+                            PhoneNumber: phone
+                        }
+                  
+                        console.log(obj);
+                        $.ajax({
+                           
+                            type: "POST",
+                          
+                            url: '/Home/CreateUser',
+
+                           data: obj,
+                        
+                            //data: form.serialize(),
+                            success: function (result) {
+                                alert('Successfully received Data ');
+                                window.location.href="/Admin/Dashboard";
+                               
+                               // console.log("data", result);
+                            },
+                            error: function () {
+                                alert('Failed to receive the Data');
+                                console.log('Failed ');
+                            }
+                        });
+                    }
+
+                });
+
+            });
+
+
+        });
+        $("body").on("submit", "#registerForm", function () {
+            return confirm("Do you want to submit?");
+        });
+      
+      
+    </script>
+     
+    }

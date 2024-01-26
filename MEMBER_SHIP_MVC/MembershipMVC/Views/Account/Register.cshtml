@@ -1,0 +1,515 @@
+﻿@model MembershipMVC.Models.Register;
+@{
+    ViewData["Title"] = "Register";
+
+    var successMessage = TempData["successMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong>@successMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+else if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" area-label="Close"></button>
+    </div>
+
+}
+
+
+
+
+<div class="row d-flex align-items-center justify-content-center mt-5">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Register</h2>
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @id = "registerForm" }))
+       
+        {
+            @Html.AntiForgeryToken()
+           @* @Html.ValidationSummary(true)*@
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.FirstName)</label>
+                @* <div>
+            @Html.TextBoxFor(expression:m => m.FirstName,htmlAttributes:new {@class ="form-control"})
+
+            </div>*@
+
+
+
+
+                <input class="text-box form-control" id="FirstName" required name="FirstName" type="text"  onkeyup="OnChangeHandler()">
+                    <span id="firstname" class="text-danger"></span>
+                    @* <span class="text-danger">@Html.ValidationMessageFor(m=>m.Username)</span>*@
+               
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.LastName)</label>
+
+
+                <input class="text-box form-control" required id="LastName" name="LastName" type="text" onkeyup="onChangelast()">
+                <span id="lastname" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.LastName)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.Email)</label>
+
+
+                <input class="text-box form-control" required id="Email" name="Email" type="email"  onkeyup="EmailValidation()">
+                <span id="email" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.Email)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.Password)</label>
+
+
+                <input class="text-box form-control" required id="Password" name="Password" type="password" value="" onkeyup="onChangePassword()">
+                <span id="password" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.Password)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.ConfirmPassword)</label>
+
+
+                <input class="text-box form-control" required id="ConfirmPassword" name="ConfirmPassword" type="password" value="" onkeyup="onChangeConfirm()">
+                <span id="confirmpassword" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.ConfirmPassword)</span>*@
+
+
+            </div>
+            <div class="mb-1">
+                <label class="control-label">@Html.LabelFor(m => m.PhoneNumber)</label>
+
+
+                <input class="text-box form-control" required id="PhoneNumber" name="PhoneNumber" type="text" value="" onkeyup="NameValidation()">
+                <span id="phonenumber" class="text-danger"></span>
+                @*<span class="text-danger">@Html.ValidationMessageFor(m=>m.PhoneNumber)</span>*@
+
+
+            </div>
+            
+            <div class="row">
+                <div class="col-8">
+                    <a asp-action="Login" class="text-decoration-none float-start mt-2"> have a account?</a>
+                </div>
+                <div class="col-4">
+                    <input type="submit" value="Register" id="saveReg"  onclick="validateForm()" />
+                </div>
+            </div>
+           @* <div>
+                <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+            </div>*@
+        }
+        @*   <form asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-1">
+        <label asp-for="Username" class="control-label"></label>
+        <input asp-for="Username" class="form-control" data-val-required="please enter username" />
+
+        <span asp-validation-for="Username" class="text-danger" />
+        </div>
+
+
+
+        <div class="mb-1">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" class="form-control" required="Please enter password" />
+        <span asp-validation-for="Password" class="text-danger" />
+        </div>
+        <div class="mb-1 form-check">
+        <label class="form-check-label">
+        <input asp-for="RememberMe" class="form-check-input" />@Html.DisplayNameFor(e => e.RememberMe)
+        </label>
+        </div>
+        <div class="row">
+        <div class="col-8">
+        <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't h ave account?</a>
+        </div>
+        <div class="col-4">
+        <input type="submit" value="Login" />
+        </div>
+        </div>
+        <div>
+        <a asp-action="ForgotPassword" class="text-decoration-none float-start mt-2">Forgot Password?</a>
+        </div>
+        </form>*@
+    </div>
+</div>
+
+
+@*<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h2 class="text-center text-info">Register</h2>
+        <form asp-action="Register" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger" />
+            </div>
+            <div class="mb-1">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger" />
+            </div>
+
+            <div class="mb-1">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger" />
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <a asp-action="Login" class="text-decoration-none float-start mt-2">Have  a account?</a>
+                </div>
+                <div class="col-4">
+                    <input type="submit" value="Register" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>*@
+
+@section scripts {
+    @* <partial name="_ValidationScriptsPartial"/>*@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+        //$(document).ready(function () {
+        //    $('#saveReg').click(function () {
+
+
+        //        $('#registeForm').validate({
+        //            rules: {
+        //                FirstName: {
+        //                    required: true
+        //                },
+        //                LastName: {
+        //                    required: true
+        //                },
+        //                Email: {
+        //                    required: true
+        //                },
+        //                Password: {
+        //                    required: true
+        //                },
+        //                ConfirmPassword: {
+        //                    //required: true
+        //                    equalTo: "#Password"
+        //                },
+        //                PhoneNumber: {
+        //                    required: true,
+        //                    maxlength: 10,
+        //                    digits: true
+        //                }
+
+        //            },
+        //            messages: {
+        //                FirstName: {
+        //                    required: "The First Name is Required"
+        //                },
+        //                LastName: {
+        //                    required: "The  last Name is Required"
+        //                },
+        //                Email: {
+        //                    required: "The  Email is Required"
+        //                },
+        //                Password: {
+        //                    required: "The  Password is Required"
+        //                },
+        //                ConfirmPassword: {
+        //                    // required: "The  ConfirmPassword is Required"
+        //                    equalTo: "Not Matched"
+        //                },
+
+        //                PhoneNumber: {
+        //                    required: "The  Phone Number is Required",
+        //                    maxlength: "The Phone Number must be 10 digits",
+        //                    digits: "The Phone number require digits only"
+        //                }
+
+        //            },
+        //            //submitHandler: function (form) {
+
+        //            //    var form = $("#register-form");
+        //            //    var fname = $('#FirstName').val();
+        //            //    var lname = $('#LastName').val();
+        //            //    var email = $('#Email').val();
+        //            //    var password = $('#Password').val();
+        //            //    // var cnfpasw = $('#confirmpassword').val();
+        //            //    var phone = $('#PhoneNumber').val();
+
+        //            //    var obj = {
+        //            //        FirstName: fname,
+        //            //        LastName: lname,
+        //            //        Email: email,
+        //            //        Password: password,
+        //            //        // ConfirmPassword: cnfpasw,
+        //            //        PhoneNumber: phone
+        //            //    }
+
+        //            //    console.log(obj);
+        //            //    $.ajax({
+
+        //            //        type: "POST",
+
+        //            //        url: '/Home/CreateUser',
+
+        //            //        data: obj,
+
+        //            //        //data: form.serialize(),
+        //            //        success: function (result) {
+        //            //            alert('Successfully received Data ');
+        //            //            window.location.href = "/Admin/Dashboard";
+
+        //            //            // console.log("data", result);
+        //            //        },
+        //            //        error: function () {
+        //            //            alert('Failed to receive the Data');
+        //            //            console.log('Failed ');
+        //            //        }
+        //            //    });
+        //            //}
+
+        //        });
+
+        //    });
+
+
+        //});
+        $("body").on("submit", "#registerForm", function () {
+            return confirm("Do you want to submit?");
+        });
+
+        function validateForm() {
+          
+             // name
+            var First = document.getElementById("FirstName").value;
+            var last = document.getElementById("LastName").value
+            var EmailAddress = document.getElementById("Email").value;
+            var pass = document.getElementById("Password").value;
+            var confirmPass = document.getElementById("ConfirmPassword").value
+            var Phone = document.getElementById("PhoneNumber").value
+
+            // error
+            var firstName = document.getElementById("firstname");
+            var LastName = document.getElementById("lastname");
+            var Email = document.getElementById("email");
+            var Password = document.getElementById("password");
+            var ConfirmPassword = document.getElementById("confirmpassword");
+            var PhoneNumber = document.getElementById("phonenumber");
+
+            firstName.innerHTML="";
+            LastName.innerHTML="";
+            Email.innerHTML="";
+            Password.innerHTML ="";
+            ConfirmPassword.innerHTML="";
+            PhoneNumber.innerHTML="";
+            var expr = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+         //  var validMobile = /^\(? ([0 - 9]{ 3 }) \)?[-. ] ? ([0 - 9]{ 3 })[-. ] ? ([0 - 9]{ 4 }) $/
+            if (!expr.test(EmailAddress)) {
+                Email.innerHTML = "Invalid email address.";
+            }
+            //if(!validMobile.test(Phone)){
+            //    document.getElementById("phonenumber").innerHTML = "Please enter valid mobile number";
+            //}
+           if(Phone.length>10){
+               document.getElementById("phonenumber").innerHTML = "Phone number no longer more than 10 digits";
+           }
+             if(First == ""){
+                firstName.innerHTML = "Please Enter First Name."
+             }
+             if(last ==""){
+                LastName.innerHTML = "Please Enter Last Name.";
+             }
+             if(EmailAddress ==""){
+                Email.innerHTML = "Please Enter Email Address.";
+             }
+             if(pass == ""){
+                Password.innerHTML = "Please Enter Password";
+             }
+             if(confirmPass ==""){
+                ConfirmPassword.innerHTML = "Please Enter Confirm Password";
+             }
+             if(Phone ==""){
+                PhoneNumber.innerHTML = "Please Enter Mobile Number.";
+             }
+             if(pass != confirmPass){
+                ConfirmPassword.innerHTML = "Please Password Not matched";
+             }
+            }
+        function onChangelast(){
+            var last = document.getElementById("LastName").value;
+            var LastName = document.getElementById("lastname");
+
+            if (last != "") {
+                LastName.innerHTML = "";
+            }else  {
+                LastName.innerHTML = "Please Enter Last Name";
+            }
+            }
+        function onChangeEmail() {
+            var EmailAddress = document.getElementById("Email").value;
+            var Email = document.getElementById("email");
+            if (EmailAddress != "") {
+                Email.innerHTML = "";
+            } else {
+                Email.innerHTML = "Please Enter Email Address";
+            }
+        }
+        function onChangePhone() {
+            var Phone = document.getElementById("PhoneNumber").value;
+            var PhoneNumber = document.getElementById("phonenumber");
+            var filter = /^\+?(\d[\d-. ]+)?(\([\d-. ]+\))?[\d-. ]+\d$/;
+            PhoneNumber.innerHTML = "";
+            if (!filter.test(Phone)) {
+              //  alert('Please provide a valid mobile phone number');
+               // return false;
+                PhoneNumber.innerHTML = 'Please provide a valid mobile phone number';
+            } else if (Phone != "") {
+                PhoneNumber.innerHTML = "";
+            } else {
+                PhoneNumber.innerHTML = "Please Enter Phone Number";
+            }
+        }
+        function onChangePassword() {
+            var pass = document.getElementById("Password").value;
+            var Password = document.getElementById("password");
+            var confirmPass = document.getElementById("confirmpassword").value;
+            var ConfirmPassword = document.getElementById("confirmpassword");
+
+            if (pass!= "") {
+                Password.innerHTML = "";
+            } else if(pass !== ConfirmPass){
+                ConfirmPassword.innerHTML = "Please not matched Password";
+                return false;
+            } else if(confirmPass ==""){
+                ConfirmPassword.innerHTML = "";
+                return false;
+            }
+            else {
+                Password.innerHTML = "Please Enter Password";
+                return false;
+            }
+            return false;
+        }
+        function onChangeConfirm() {
+
+            var confirmPass = document.getElementById("confirmpassword").value;
+            var ConfirmPassword = document.getElementById("confirmpassword");
+            if (confirmPass != "") {
+                ConfirmPassword.innerHTML = "";
+            } 
+            else {
+                ConfirmPassword.innerHTML = "Please Enter Password";
+            }
+        }
+
+        function OnChangeHandler(){
+            var fname = document.getElementById("FirstName").value;
+          
+            // error
+            var firstName = document.getElementById("firstname");
+           
+
+            if (fname != "" ) {
+                firstName.innerHTML = "";
+            }
+            else if (fname == "") {
+                firstName.innerHTML = "Please Enter First Name"
+            }
+           
+            }
+        function ValidateEmail() {
+            var email = document.getElementById("Email").value;
+            var lblError = document.getElementById("email");
+            lblError.innerHTML = "";
+            var expr = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            if (!expr.test(email)) {
+                lblError.innerHTML = "Invalid email address.";
+            }
+        }
+        function NameValidation() {
+            var phone;
+            var PhoneId = document.getElementById("PhoneNumber");
+            phone = PhoneId.value;
+            var Error = document.getElementById("phonenumber");
+            var val;
+            val = /^[0-9]+$/;
+            var digits = /\d(10)/;
+            if (phone == "") {
+               // return ("Please Enter PhoneNo" + "\n");
+               return Error.innerHTML = "Please Enter Phone Number";
+            }
+            else if (val.test(phone)) {
+               // return "";
+                return Error.innerHTML = "";
+            }
+           
+
+            else {
+
+               // return ("PhoneNo should be only in digits" + "\n");
+                return Error.innerHTML = "PhoneNo should be only in digits";
+            }
+
+
+             
+        }
+        function EmailValidation(){
+            var Email;  
+        var EmailId = document.getElementById("Email");  
+         Email =EmailId.value;  
+            var val = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            var EmailError = document.getElementById("email");
+        if (Email == "")  
+        {  
+           // return ("Please Enter Email Id" + "\n");  
+           return EmailError.innerHTML="Please Enter Your Email Id";
+        }  
+        else if (val.test(Email))  
+        {  
+           // return "";  
+                return EmailError.innerHTML = "";
+        }  
+   
+        else  
+        {
+                return EmailError.innerHTML = "Please Enter Valid Email Id"
+           // return ("Email should be in this form example: xyz@abc.com" + "\n");  
+        }  
+        }
+    </script>
+}

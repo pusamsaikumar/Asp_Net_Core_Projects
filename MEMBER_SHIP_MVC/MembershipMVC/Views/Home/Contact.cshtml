@@ -1,0 +1,19 @@
+﻿@model MembershipMVC.Models.PhotoUploadModel;
+
+@{
+    ViewData["Title"] = "Contact";
+}
+@*<h2>Contact Details</h2>*@
+
+<h2>Cloudinary Image Upload</h2>
+<div class="container">
+        <form asp-action="Contact" method="post" asp-controller="Home" enctype="multipart/form-data">  
+                <div class="form-group">
+                    <label asp-for="Image" class="form-label">Image</label>
+                    <input type="file" class="form-control" asp-for="Image" />
+                </div>
+              <button type="submit" class="btn btn-primary"> Upload</button>
+        </form>
+
+   
+</div>

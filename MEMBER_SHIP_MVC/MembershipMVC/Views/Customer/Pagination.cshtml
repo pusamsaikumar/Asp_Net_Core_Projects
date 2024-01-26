@@ -1,0 +1,38 @@
+﻿@model List<MembershipMVC.Models.ExcelFileModels.Customer>;
+
+@using NonFactors.Mvc.Grid;
+@{
+    ViewData["Title"] = "Pagination";
+}
+
+<h1>Pagination with Grid table</h1>
+<hr />
+
+@if(Model !=null && Model.Any()){
+    <p>Data available here....</p>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                @Html.Grid(Model).Named("Customer").Build(columns => {
+            columns.Add(model => model.Id).Titled("Id");
+            columns.Add(model => model.FirstName).Titled("FirstName");
+            columns.Add(model => model.LastName).Titled("LastName");
+            columns.Add(model => model.Job).Titled("Job");
+            columns.Add(model => model.Amount).Titled("Amount");
+            columns.Add(model => model.Tdate).Titled("Tdate");
+            })
+            </div>
+        </div>
+    </div>
+} else{
+    <p>No Data available....</p>
+}
+
+@section scripts {
+    @* <partial name="_ValidationScriptsPartial"/>*@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

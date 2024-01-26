@@ -1,0 +1,17 @@
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Service.deps.json
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Service.dll
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Service.pdb
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Common.dll
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Repositories.dll
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Repositories.pdb
+D:\csharpprojects\Multilayer\Employee.Service\bin\Debug\net6.0\Employee.Common.pdb
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.csproj.AssemblyReference.cache
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.AssemblyInfoInputs.cache
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.AssemblyInfo.cs
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.csproj.CoreCompileInputs.cache
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.csproj.CopyComplete
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.dll
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\refint\Employee.Service.dll
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\Employee.Service.pdb
+D:\csharpprojects\Multilayer\Employee.Service\obj\Debug\net6.0\ref\Employee.Service.dll

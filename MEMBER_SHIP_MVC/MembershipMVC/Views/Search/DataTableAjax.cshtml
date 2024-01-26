@@ -1,0 +1,63 @@
+﻿@model List<MembershipMVC.Models.ExcelFileModels.Customer>;
+@{
+    ViewData["Title"] = "DataTableAjax page";
+}
+<style>
+    div.dataTables_wrapper div.dataTables_length select {
+        width: auto;
+        display: inline-block;
+        color: red;
+        padding:5px;
+        border-radius:4px;
+        text-align:center
+    }
+
+    
+</style>
+
+<h1>DataTable with Ajax JQuery </h1>
+
+<div class="container">
+    <div class="col-8 offset-2">
+        <table class="table table-responsive table-hover " id="dataTableId">
+            <thead>
+                <tr class="table-active text-center">
+                    @*<th></th>*@
+                    <th>Id</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Job</th>
+                    <th>Amount</th>
+                    <th>Tdate</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+               @* @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.Job</td>
+                            <td>@item.Amount</td>
+                            <td>@item.Tdate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td>No Customer available here...</td>
+                    </tr>
+                }*@
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/js/datatable_file.js"></script>
+}

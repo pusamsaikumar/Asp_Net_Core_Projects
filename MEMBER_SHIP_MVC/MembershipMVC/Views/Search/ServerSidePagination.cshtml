@@ -1,0 +1,91 @@
+﻿@*@model List<MembershipMVC.Models.ExcelFileModels.Customer>;*@
+@{
+    ViewData["Title"] = "Serverv Side Pagination";
+}
+<style>
+    div.dataTables_wrapper div.dataTables_length select {
+       /* width: auto;
+        display: inline-block;*/
+        color: red;
+        padding: 5px;
+        border-radius: 4px;
+        text-align: center;
+        border: 1px solid double;
+    }
+
+</style>
+
+<h4>Server Side Pagination with ajax DataTable </h4>
+<hr />
+
+<div class="container">
+   <div class="row">
+        <div class="col-10 offset-1">
+            <form id="formSubmit" method="post" action="">
+                <table class="table table-bordered table-hover  display table-striped" cellspacing="0" width="100%" id="serverDataTable">
+                    <thead>
+                        <tr class="table-active text-center">
+                            <th>
+                                <input type="checkbox" id="check_all" name="check_all" value="1"  />
+                            </th>
+
+
+                            <th>Id</th>
+                            <th>FirstName</th>
+                            <th>LastName</th>
+                            <th>Job</th>
+                            <th>Amount</th>
+                            <th>Tdate</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @*   @if (Model != null && Model.Any())
+                        {
+                        @foreach (var item in Model)
+                        {
+                        <tr class="text-center">
+                        <td>@item.Id</td>
+                        <td>@item.FirstName</td>
+                        <td>@item.LastName</td>
+                        <td>@item.Job</td>
+                        <td>@item.Amount</td>
+                        <td>@item.Tdate.ToString("dd/MM/yyyy")</td>
+                        <td>
+                        <div class="btn btn-group-sm">
+                        <a href="#" class="btn btn-info">View</a>
+                        <a href="#" class="btn btn-secondary">Edit</a>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                        </div>
+                        </td>
+                        </tr>
+                        }
+                        }
+                        else
+                        {
+                        <tr>
+                        <td>no customer available here...</td>
+                        </tr>
+                        }*@
+                    </tbody>
+                </table>
+                <div>
+                    <button type="submit" class="btn btn-secondary" onclick="doSum()">submit</button>
+                </div>
+                <div id="console1">
+
+                </div>
+                <prev id="console">
+                </prev>
+            </form>
+      
+        </div>
+   </div>
+</div>
+
+@section scripts{
+    <script src="~/js/serversidedatatable.js"></script>
+    
+   
+}
+
