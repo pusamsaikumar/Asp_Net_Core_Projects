@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LoginDemo</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/LoginDemo.styles.css" asp-append-version="true" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Content/admin/assets/js/init.js")"></script>
+    <link href="@Url.Content("~/Content/admin/assets/libs/nifty-modal/css/component.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/animate-css/animate.min.css")" rel="stylesheet" />
+
+    <!-- Extra CSS Libraries Start -->
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-magnific/magnific-popup.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/css/style.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-icheck/skins/all.css")" rel="stylesheet" />
+
+
+    <link href="~/Content/admin/assets/css/lanndingpagestyles.css" rel="stylesheet" />
+    <link href="~/Content/admin/assets/libs/nifty-modal/css/component.css" rel="stylesheet" />
+
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery/jquery-1.11.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery/jquery-1.11.1.min.map")"></script>
+
+    <script src="@Url.Content("~/Content/admin/assets/libs/less-js/less-1.7.5.min.js")"></script>
+
+    @* <link href="@Url.Content("~/Content/admin/assets/libs/jquery-magnific/magnific-popup.css")" rel="stylesheet" type="text/css" />*@
+@*    <link href="@Url.Content("~/Content/admin/assets/css/style.css")" rel="stylesheet" type="text/css" />*@
+   @* <link href="@Url.Content("~/Content/admin/assets/libs/jquery-icheck/skins/all.css")" rel="stylesheet" />*@
+
+@*
+    <link href="@Url.Content("~/Content/admin/assets/css/style.css")" rel="stylesheet" type="text/css" />*@
+
+    <style>
+        .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+            background-color: #53a585 !important;
+            border-color: #53a585 !important;
+        }
+
+        #topbar .top-divider {
+            border-bottom: 1px solid #838383 !important;
+        }
+
+        .btn-primary {
+            background-color: #53a585 !important;
+            border-color: #53a585 !important;
+            color: #FFFFFF !important;
+        }
+
+            .btn-primary:hover {
+                background-color: #53a585 !important;
+                border-color: #53a585 !important;
+                color: #FFFFFF !important;
+            }
+
+        ul.easyWizardSteps li.current a.wizard-header-link {
+            color: #FE6000 !important;
+        }
+
+        ul.easyWizardSteps li a.wizard-header-link {
+        }
+
+        ul.easyWizardSteps li.current span.wizard-header-num {
+            border: 2px solid #2095b2 !important;
+            color: #2095b2 !important;
+        }
+
+        .easyWizardSteps {
+            background: #359ABC none repeat scroll 0 0;
+        }
+
+        .easyWizardButtons .btn-default {
+            background-color: #359ABC;
+            border-color: #359ABC;
+            color: #fff;
+        }
+
+        .style-gw {
+            display: none;
+            z-index: 21474836479 !important;
+        }
+
+        .style-gx {
+            z-index: 21474836479 !important;
+        }
+    </style>
+  
+</head>
+<body class="">
+    @*logout model*@
+   @* <div class="md-modal md-just-me" id="logout-modal">
+        <div class="md-content">
+            <h3><strong>Logout</strong> Confirmation</h3>
+        </div>
+        <div>
+            <p class="text-center">Are you sure want to logout from this awesome system?</p>
+            <p class="text-center">
+                <button class="btn btn-danger md-close">
+                    Nope!
+                </button>
+                <a href="@Url.Action("Login","Account")" class="btn btn-success md-close" style=" color: #FFFFFF;">Yes, I'm sure'</a>
+            </p>
+        </div>
+    </div>*@
+    <div id="wrapper">
+        <header>
+
+          <div id="topbar">
+              <div class="container">
+                  <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+
+                        </div>
+                      
+                  </div>
+                    <div class="popup">
+                    </div>
+              </div>
+              <nav>
+
+              </nav>
+          </div>
+          <nav class="navbar navbar-default" id="toggledisplay">
+              <div class="container"> 
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation" data-target="#main-navigation">
+                            <span class="icon-navicon"></span>
+                        </button>
+                        <a class="navbar-brand" href="@Url.Action("Index","Home")"></a>
+                    </div> 
+              </div>
+          </nav>
+          @RenderBody()
+        </header>
+        @*<div class="container">
+            <main role="main" class="pb-3">
+               
+            </main>
+        </div>*@
+
+      @*  <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - LoginDemo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+        <a class="tothetop" href="javascript:;"><i class="icon-angle-up"></i></a>
+
+    </div>
+    
+    <div class="md-overlay"></div>
+    <script>
+        var resizefunc = [];
+    </script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/classie.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/modalEffects.js")"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.href;
+        if (url.indexOf("SessionTimeOut") != -1 || url.indexOf("genericerror") != -1) {
+            //$(".top-divider").();
+        }
+        else {
+            $(".top-divider").removeClass("popup");
+        }
+        $("#main-navigation a").filter(function () {
+            return this.href == location.href.replace(/#.*/, "");
+        }).addClass("active");
+        $('#myWizard').easyWizard({
+            buttonsClass: 'btn btn-default',
+            submitButtonClass: 'btn btn-success',
+
+            after: function (wizardObj, prevStepObj, currentStepObj) {
+                setTimeout(function () {
+                    $('.main-slider.fullsize').css('height', ($(wizardObj).height() + 130) + 'px')
+                }, 500);
+            },
+        });
+    });
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            $("#toggledisplay").addClass("scrolled");
+        } else {
+            $("#toggledisplay").removeClass("scrolled");
+        }
+    });
+    $(window).on('beforeunload', function () {
+        $(".logo_div").addClass('md-show').css("z-index", "21474836479");
+        $("#loader").show();
+        $("#logo_one").show();
+    });
+    $(window).load(function () {
+        $("#logo_one").fadeOut();
+        $("#loader").fadeOut("slow", function () {
+            $(".logo_div").removeClass('md-show').addClass('md-close');
+        });
+    });
+</script>

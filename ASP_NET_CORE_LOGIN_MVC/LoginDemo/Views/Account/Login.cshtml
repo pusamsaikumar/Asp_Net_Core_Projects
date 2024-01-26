@@ -1,0 +1,339 @@
+﻿@model LoginViewModel;
+@{
+    ViewData["Title"] = "Log in";
+}
+@*<style>
+    
+    
+    .col-sm-offset-4 {
+        margin-left: 33.33333333%;
+    }
+    h2 {
+        
+        font-weight: 300;
+        color: #505458;
+        line-height: 35px;
+        margin: 10px 0;
+        font-size: 30px;
+          margin-bottom: 15px;
+    }
+   /* header .topbar{
+        display:none;
+    }*/
+
+    body.fixed-left .side-menu.left{
+        display: none;
+    }
+    /*  header{
+        display:none;
+    }*/
+    
+    .input-lg, .form-group-lg .form-control {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.33;
+        border-radius: 6px;
+    }
+
+    .form-group {
+      /*  margin-bottom: 15px;*/
+        margin-bottom: 5px;
+    }
+    
+   
+    .input-lg, .form-group-lg .form-control {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.33;
+        border-radius: 6px
+    }
+
+
+    .body-content {
+        top: 50%;
+        left: 40%;
+        position: absolute;
+    }
+
+    .line {
+        line-height: 2px !important;
+    }
+
+    #wrapper {
+        background-color: white !important;
+    }
+
+    .style-cb {
+        color: #838383 !important;
+    }
+
+    .linkcolor {
+        color: #4c9e45 !important;
+    }
+    label{
+        font-family: "Open Sans";
+        font-size: 13px;
+        font-weight: 600;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+      
+    }
+
+    .close {
+        margin-top: -1vh !important;
+        float: right;
+       font-size: 21px;
+       font-weight: 700;
+        line-height: 1;
+        color: #000;
+        /*text-shadow: 0 1px 0 #fff;*/
+        
+        opacity: .2;
+    }
+
+    #topbar .social-links a i {
+        color: #838383 !important;
+    }
+
+    input {
+        max-width: none !important;
+    }
+
+    .popup {
+        display: none;
+    }
+  .main-slider{
+      width:auto;
+      height:auto;
+  }
+   /* #divLoading{
+        display:none;
+    }*/
+
+</style>*@
+<style>
+
+    .body-content {
+        top: 50%;
+        left: 40%;
+        position: absolute;
+    }
+
+    .line {
+        line-height: 2px !important;
+    }
+
+    #wrapper {
+        background-color: white !important;
+    }
+
+    .style-cb {
+        color: #838383 !important;
+    }
+
+    .linkcolor {
+        color: #4c9e45 !important;
+    }
+
+    .close {
+        margin-top: -1vh !important;
+    }
+
+    #topbar .social-links a i {
+        color: #838383 !important;
+    }
+
+    input {
+        max-width: none !important;
+    }
+
+    .popup {
+        display: none;
+    }
+</style>
+<title>Login</title>
+<section class="main-slider fullsize" data-stellar-background-ratio="0.5">
+    
+    <div>
+        <img style="padding-left:44vw;" src="https://clientsupport.rsaamerica.com/Content/admin/assets/img/rsa.png" />
+    </div>
+
+    <div class="slider-caption" style="height:68vh;">
+        <div class="container" style="margin-top:90px">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <form id="frmLogin" method="post" class="form-signin" >
+                        <div id="ManageAertLogin" class="popup line">
+                            <div class="alert alert-danger" id="myalert2">
+                                <a href="javascript:void(0);" class="close" onclick="$('#ManageAertLogin').addClass('popup');" style="color:black;">&times;</a>
+                                <label id="alertmessage2"></label>
+                            </div>
+                        </div>
+
+                        <h2 class="form-signin-heading" style="text-align:center;font-weight:500">LOGIN</h2>
+                        <div class="popup line" id="popup"></div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" id="Email" name="Email" placeholder="Email Address"  />
+                          
+                                <label class="text-danger " id="email"></label>
+
+                            
+                            </div>
+                        <div class="form-group">
+                            <input type="Password" class="form-control input-lg" id="Password" name="Password" placeholder="Password"  />
+                            <label class="text-danger" id="password"></label>
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-lg btn-primary btn-block" />
+                        <div class="linkdiv">
+                            <span class="linkcolor">need a account?<a class="linkcolor" href="@Url.Action("Register","Account")">Sign Up</a></span><br/>
+
+                        </div>
+                    </form>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+   @* <div class="slider-caption" style="height:68vh;">
+
+        <div class="container" style="margin-top:90px;">
+
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                     @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { Id = "frmLogin", @class = "form-signin" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div id="ManageAlertLogin" class="popup line">
+                            <div class="alert alert-danger" id="myalert2">
+                                <a href="javascript:void(0);" class="close" onclick="$('#ManageAlertLogin').addClass('popup');" style="color:black;">&times;</a>
+                                <label id="alertmessage2"></label>
+                            </div>
+                        </div>
+                        <h2 class="form-signin-heading" style="text-align:center;font-weight:500;">LOGIN</h2>
+                        <div class="popup line" id="popup">
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control input-lg", placeholder = "Email Address", })
+                        </div>
+                        <div class="form-group">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control input-lg", placeholder = "Password" })
+                        </div>
+
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">LOGIN</button>
+
+                        <br>
+
+    <div class="linkdiv">
+    <span class="linkcolor">Need an account? <a href="@Url.Action("Register","Customer")" class="linkcolor">Sign up</a> now! </span><br />
+   <span class="linkcolor"> Forgot password?<a href="@Url.Action("ForgotPassword", "Account")" class="linkcolor"> Click here</a></span>
+    </div>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>*@
+</section>
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+      
+        $(document).keypress(function(e){
+            if(e.which == 13){
+                $("#frmLogin").submit();
+            }
+        });
+
+        $("#Email").on("keyup", function () {
+            var Email = $("#Email").val();
+            if (Email != "") {
+                $("#email").html("");
+              //  return false;
+            } else {
+                $('#email').html('Please Enter Email Address');
+               // return true;
+            }
+        })
+        $("#Password").on("keyup", function () {
+            var Password = $("#Password").val();
+            if (Password != "") {
+                $("#password").html("");
+                
+               // return false;
+            } else {
+                $('#password').html('Please Enter Password');
+               // return true;
+            }
+
+        })
+        $('#frmLogin').on('submit', function () {
+            var Email = $("#Email").val();
+            var Password = $("#Password").val();
+
+
+
+
+            if (Password == "" || Email == "") {
+                if (Email == "") {
+                    $('#email').html('Please Enter Email Address');
+
+                    // return false;
+                }
+                if (Password == "") {
+                    $('#password').html('Please Enter Password');
+                    //  return false;
+                }
+
+
+                $('#alertmessage2').html('Invalid Login Attempt!');
+                $("#ManageAertLogin").removeClass("popup");
+                $("#myalert2").show();
+                return false;
+            } else {
+                $("#ManageAertLogin").addClass("popup");
+
+
+
+                return true;
+                $('#formLogin').submit();
+            }
+        });
+        $(document).ready(function(){
+            var bSuccess = "@TempData["errorMessage"]";
+            var bCheckEmail = "@TempData["checkEmail"]";
+            var bWrongPass = "@TempData["WrongPass"]";
+
+             if(bCheckEmail !=""){
+                $('#alertmessage2').html(bCheckEmail);
+                    $("#ManageAertLogin").removeClass("popup");
+                    $("#myalert2").show();
+             }
+            if (bWrongPass != "") {
+                $('#alertmessage2').html(bWrongPass);
+                $("#ManageAertLogin").removeClass("popup");
+                $("#myalert2").show();
+            }
+            if(bSuccess !=""){
+                $('#alertmessage2').html(bSuccess);
+                $("#ManageAertLogin").removeClass("popup");
+                $("#myalert2").show();
+            }
+
+            //if(bCheckEmail==""){
+
+            //} else if (bCheckEmail == null ) {
+
+            //}
+            //else{
+            //    $('#alertmessage2').html('Invalid Login Attempt!');
+            //    $("#ManageAertLogin").removeClass("popup");
+            //    $("#myalert2").show();
+            //}
+        });
+       
+    </script>
+}

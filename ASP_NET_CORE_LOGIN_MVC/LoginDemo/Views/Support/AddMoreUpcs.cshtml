@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "AddMoreUpcs";
+    //Layout = "~/Views/Shared/_RSALayout.cshtml";
+    Layout = null;
+}
+
+<div class="row" style="margin-left:-50px;">
+    <div class="col-md-12">
+        <div class="widget">
+              <div class="widget-header">
+                  <h2>Add More UPCS</h2>
+                  <div id="dvNote" style="margin-left:15px;color:red" >
+                    Note:If this reward is multi-limit reward all dependent rewards will be updated as well.
+                  </div>
+                  <div class="additional-btn">
+                    <a href="#" class="widget-toggle"></a><i class="icon-down-open-2"></i>
+                  </div>
+                </div>
+            <div class="widget-content padding">
+                <br/>
+                <br/>
+                <textarea rows="10" cols="50" id="txtUpcsLists" class="form-control" placeholder="Please enter UPCs with seperated by comma"></textarea>
+                <div>
+                    <br/>
+                    <div  style="float:left;">
+                        <div   style="float:left;">
+                            <input type="checkbox" id="chkCnfm" style="width:20px;height:20px;" />
+                        </div>
+                        <div style="float:left; margin-left:2px;margin-top:3px;" id="dvConfirm">
+                            Confirm Changes to 
+                        </div>
+                    </div>
+                    <button id="btnAddMoreUpcs" type="button" class="btn btn-success" style="margin-left:35px;" >
+                        <i class="fa fa-floppy-o"></i>Add UPCs And Update
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

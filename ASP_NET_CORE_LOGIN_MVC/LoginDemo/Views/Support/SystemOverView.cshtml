@@ -1,0 +1,211 @@
+﻿
+@{
+    ViewData["Title"] = "SystemOverView";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+<style>
+    .textcolor{
+        color:blue;
+    }
+
+    .padding-line{
+        padding:10px;
+    }
+
+    .fontsize{
+        font-size:medium;
+    }
+</style>
+<div class="widget">
+    <div class="widget-content"> 
+        <div class="col-sm-offset-4 col-sm-6">
+            <h2 class="textcolor"><b>RECENT l</b></h2>
+        </div>
+        <div class="col-sm-2" style="margin-top:20px;">
+            <input type="reset" value="REFRESH" class="btn btn-success" onclick="refresh();" />
+        </div>
+    </div>
+    <div id="display" class="content padding-line">
+        <div class="form-group">
+            <div class="col-sm-12">
+                <h2 class="textcolor"><b><label class="form-label fontsize">Recent Top 5 Basket:</label></b></h2>
+            </div>
+            <div class="col-sm-12">
+                <table cellspacing="2" class="table-noborder" id="basketid">
+                    <thead>
+                        <tr>
+                            <th>TOTAL BASKET AMOUNT</th>
+                            <th>LOYALITY ID</th>
+
+                             <th>STOREID</th>
+                            <th>STORENAME</th>
+                            <th>Transaction Date</th>
+                            <th>RAW BASKET JSON</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <h2 class="textcolor"><b><label class="form-label fontsize">Recent Top 5 Redemptions:</label></b></h2>
+            </div>
+            <div class="col-sm-12">
+                <table  class="table-noborder" id="redemptionid">
+                    <thead>
+                        <tr>
+                            <th>Redemption Date</th>
+                            <th>Member Number</th>
+
+                            <th>Title</th>
+                            <th>Newscategory ID</th>
+                            <th>PreferredStore</th>
+                            <th>
+                                Raw RD JSON
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+           
+        </div>
+       
+        <div class="form-group">
+            <div class="col-sm-12">
+                <h2 class="textcolor"><b><label class="form-label fontsize">Recent Top 5 Opt-INs:</label></b></h2>
+            </div>
+            <div class="col-sm-12">
+                <table class="table-noborder" id="OptINId">
+                    <thead>
+                        <tr>
+                            <th>
+                                USERNAME
+                            </th>
+                            <th>MEMBER NUMBER</th>
+
+                            <th>REWARD TITLE</th>
+                            <th>REWARDS COUNT	</th>
+                            
+
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <h2 class="textcolor"><b><label class="form-label fontsize">Recent Top 5 Reward Awarded:</label></b></h2>
+            </div>
+            <div class="col-sm-12">
+                <table class="table-noborder" id="Rewardid">
+                    <thead>
+                        <tr>
+                            <th>NCRImpressionDate</th>
+                            <th>Member Number</th>
+
+                            <th>Title</th>
+                            <th>NewscategoryID	</th>
+                            <th>PreferredStore</th>
+
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <h2 class="textcolor"><b><label class="form-label fontsize">Recent Top 5 New User Registration :</label></b></h2>
+            </div>
+            <div class="col-sm-12">
+                <table class="table-noborder" id="UserReg">
+                    <thead>
+                        <tr>
+                            <th>
+                                USER NAME
+                            </th>
+                            <th>BARCODE VALUE</th>
+
+                            <th>USERDETAIL ID</th>
+                            <th>STOREID	</th>
+                            <th>STORE NAME</th>
+                            <th>SIGNUP DATE</th>
+
+
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@*
+DISPLAY Redeemption json*@
+<div class="modal fade" id="editRedemption" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h4><b>Redemptions Json</b></h4>
+            </div>
+            <div class="modal-body">
+                 <div class="myModel-Content">
+
+                 </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+@*
+DISPLAY Redeemption json*@
+<div class="modal fade" id="editBasket" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h4><b>Basket Json</b></h4>
+            </div>
+            <div class="modal-body">
+                <div class="basket-content">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function(){
+            GetALLrecords();
+        });
+        function refresh(){
+        
+            window.location.reload();
+        }
+        function GetALLrecords(){
+            $.ajax({
+                method:"GET",
+                url: "/Support/GelAllRecords",
+                type:"JSON",
+                success:function(data){
+                   console.log(data.data.table);
+                }
+            })
+        }
+    </script>
+}

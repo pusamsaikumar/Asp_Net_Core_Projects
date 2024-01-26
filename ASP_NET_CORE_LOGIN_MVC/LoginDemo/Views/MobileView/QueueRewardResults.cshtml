@@ -1,0 +1,32 @@
+﻿@model List<LoginDemo.Models.LoyalityMember>;
+@{
+    ViewData["Title"] = "QueueRewardResults";
+    Layout = null;
+}
+
+<div id="dvDataset">
+    @if(Model != null)
+    {
+        @if(Model.Count > 0)
+        {
+            <div class="col-md-11 scrollxy">
+                <table class="table table-striped table-bordered scrollxy" style="overflow:scroll">
+                    <thead>
+                        <tr>
+                            <th>loyalityID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model)
+                        {
+                            <tr>
+                                <td>@item.LoyalityID</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+           </div>
+        }
+    }
+</div>
+

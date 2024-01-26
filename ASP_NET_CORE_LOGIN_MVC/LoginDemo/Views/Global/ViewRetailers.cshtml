@@ -1,0 +1,362 @@
+﻿@model List<LoginDemo.Models.RetailersModel>;
+@{
+    ViewData["Title"] = "ViewRetailers";
+      Layout = "~/Views/Shared/_RSALayout.cshtml";
+
+}
+
+<style>
+    [aria-current]:not([aria-current="false"]) {
+        background-color: #abb7b7;
+        border-color: #abb7b7;
+        border-radius: 2px !important;
+        color: #fff;
+    }
+   /* div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        margin: 2px 0;
+        white-space: nowrap;
+        justify-content: flex-end;
+        background:red;
+    }
+
+*/ 
+   
+
+    .dataTables_paginate {
+         margin-right: 0px !important; 
+        float: right;
+      /*  background:whitesmoke;
+        margin: 2px 0;
+        white-space: nowrap;
+        justify-content: flex-end;*/
+
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 0;
+        border-radius: 4px;
+/*    width:222.14px;*/
+    height:33.6px;
+    }
+    .paginate_button { 
+        height: 33.6px;
+        width: 30.6px;
+       color: #fff;
+        align-items:center;
+
+    }
+    .paginate_button:active{
+            box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+    }
+
+        .paginate_button:hover{
+            background-color:lightgray;
+           /* background:red;*/
+        }
+    .paginate_button.disabled i {
+       /* background-color: #abb7b7;*/
+        border-color: #abb7b7;
+        border-radius: 2px !important;
+        color: #fff;
+          
+    }
+
+        .paginate_button.active  {
+        box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+    }
+  /*  .paginate_button, .paginate_button > span {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+        margin-left: -1px;
+        line-height: 1.42857143;
+        color: #337ab7;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+*/
+            .paginate_button, .paginate_button > span {
+                position: relative;
+                float: left;
+                padding: 6px 12px;
+                margin-left: -1px;
+                line-height: 1.42857143;
+                        color: #fff;
+                text-decoration: none;
+                background-color: #999191;
+                border-right: 1px solid #ddd;
+            }
+
+   
+
+    
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 65px;
+        display: inline;
+        line-height:30px;
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 0;
+        border-color: #ddd;
+        text-align: center
+    }
+ 
+
+    .dataTables_length, div.dataTables_info {
+         margin-left: 15px; 
+         display:inline;
+
+    }
+
+  
+  /*  .dataTables_filter, .dataTables_paginate input {
+         margin-right: 15px !important; 
+        float: right;
+        display: inline;
+        line-height: 30px;
+        padding: 5px;
+        font-size: 13px;
+       
+    }*/
+    div.dataTables_wrapper div.dataTables_length select:focus{
+            border-color: #dadada;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+    }
+
+    /*.dataTables_filter input {
+        margin-left: 6px;
+        border-color: #ddd;
+    }
+
+        .dataTables_filter input:focus{
+            border-color: #dadada;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+        }*/
+   input[type="checkbox"]{
+        width:20px;
+        height:20px;
+       
+   }
+ 
+    input[type="search"] {
+       /* margin-right: 15px !important;*/
+        /*float: right;
+        display: inline;*/
+       line-height: 30px;
+     
+        font-size: 13px;
+        border: 1px solid #ddd;
+        
+   }
+
+    .form-control {
+        font-size: 13px;
+        border-radius: 0;
+        border-color: #ddd;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+    }
+
+    .sortable:after {
+        font-family: FontAwesome;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .sortable.asc:after {
+        font-family: FontAwesome;
+        content: '\f0de';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .sortable.desc:after {
+        font-family: FontAwesome;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    ul.tbl-actions {
+        list-style: outside none none;
+        display: inline-block;
+        padding-left: 0px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+        ul.tbl-actions li {
+            display: inline;
+        }
+
+    .paddingtop {
+        padding-top: 25px;
+    }
+
+    .margin5 {
+        margin-top: -5px;
+    }
+
+    .imagesize {
+        height: 50px;
+        width: 50px;
+    }
+
+    .actionwidth {
+        width: 10%;
+    }
+
+    #wrapper.enlarged .actionwidth {
+        width: 20%;
+    }
+
+    .tablehead1 {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+  
+    /*.pagination > .active > a {
+        z-index: 1 !important;
+    }*/
+</style>
+<div class="page-heading">
+        <h1>
+        <i class="fa fa-home"></i> &nbsp;<span>Retailers</span>
+        <span class="pull-right">
+            <a class="btn btn-default btn-md md-trigger" href="@Url.Action("AddClient","Global")">
+                <i class="fa fa-plus"></i>&nbsp;<b>Add Client</b>
+            </a>
+        </span>
+        </h1>
+</div>
+<div class="row">
+    <div class="col-sm-12 portlets ui-sortable">
+        <div class="widget">
+            <div class="widget-content padding">
+                    <div>
+                    @if(Model !=null && Model.Count > 0)
+                    {
+                        <table id="datatable-2" class="table table-striped table-bordered table-hover" style="width:99%">
+                            <thead>
+                                <tr>
+                                    <th class="sortable">Retailer Name</th>
+                                    <th class="sortable">Email</th>
+                                    <th class="sortable">Android Arn</th>
+                                    <th class="sortable">IOS Arn</th>
+                                    <th class="sortable">All Users Arn</th>
+                                    <th class="sortable">Push Notification Enabled</th>
+                                    <th class="no-sort">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model)
+                                {
+                                    <tr>
+                                        <td style="word-break:break-all;width:16%;">
+                                            @Html.DisplayFor(modelItem => item.ClientName)
+                                        </td>
+                                        <td style="word-break:break-all;width:20%;"> 
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td style="word-break:break-all;width:25%;">
+                                            @Html.DisplayFor(modelItem => item.AndriodArn)
+                                        </td>
+                                        <td style="word-break:break-all;width:25%;">
+                                            @Html.DisplayFor(modelItem => item.IphoneArn)
+                                        </td>
+                                        <td style="word-break:break-all;width:25%;">
+                                            @Html.DisplayFor(modelItem => item.AllUsersArn)
+                                        </td>
+                                        <td style="justify-content:center;text-align:center;align-items:center;">
+                                            @Html.DisplayFor(modelItem => item.PushNOtificationEnabled)
+                                        </td>
+                                        <td width="3%">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                                                    <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" role="menu" style="right:0px !important;left:auto">
+                                                    <li>
+                                                       @* <a href="@Url.Action("EditRetailerDetails","Global", new {@RSAClientId=item.RSAClientId})">Edit </a>*@
+                                                        <a onclick="EditRetailer('@item.RSAClientId')">Edit </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="@Url.Action("ViewClientStores","Global",new {@RSAClientId=item.RSAClientId})">View Stores </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="@Url.Action("AddClientStore","Global")">Add Stores </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <span class="style95">Retailers Not Found</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="editModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2>Edit <strong>Retailer</strong>Details</h2>
+            </div>
+            <div class="modal-body">
+                <div id="editContent">
+
+                </div>
+            </div>
+           @* <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>*@
+        </div>
+    </div>
+</div>
+ 
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/datatable_file.js"></script>
+    <script>
+        $(".sortable").click(function(){
+           var o = $(this).hasClass("asc") ? "asc" : "desc";
+           $(".sortable").removeClass("asc").removeClass("desc");
+           $(this).addClass(o);
+        })
+    </script>
+    <script>
+        function EditRetailer(id) {
+        
+          
+            $.ajax({
+                method:"GET",
+                url: '/Global/EditRetailerDetails?RSAClientId=' + id,
+                success:function(res){
+                    $("#editModal .modal-body #editContent").html(res);
+                    $("#editModal").modal("show");
+                },
+            })
+        }
+    </script>
+ 
+}

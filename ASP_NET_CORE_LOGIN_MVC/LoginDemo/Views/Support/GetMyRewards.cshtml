@@ -1,0 +1,164 @@
+﻿@model List<LoginDemo.Models.LMGetReward>;
+@{
+    ViewData["Title"] = "GetMyRewards";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-sm-12 portlets ui-sortable">
+        <div class="widget-content" style="padding-top:20px;">
+            <div class="style92"> 
+                <div class="row" style="padding-bottom:15px;">
+                    <div  class="col-sm-9 text-center">
+                        <h4 style="color:blue;"><b>My Rewards</b></h4>
+                    </div>
+                    <div class="col-md-11" id="dvMyRewards">
+
+                        @if (Model != null)
+                        {
+                            @if (Model.Count > 0)
+                            {
+                                <table class="table table-stripped table-bordered col-md-11">
+                                    <thead class="bg-green-1">
+                                        <tr>
+                                            <th>Reward Title</th>
+                                            <th>Buy Qty Amount</th>
+                                            <th>Purchase Qty</th>
+                                            <th>Purchase Amount</th>
+                                            <th id="thValidated" hidden></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbRewards" style="border:inherit">
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@item.Title</td>
+                                                <td>@item.BuyQtyAmount</td>
+                                                <td>@item.PurchasedQty</td>
+                                                <td>@item.PurchasedAmount</td>
+                                                <td id="tdValidate" hidden>
+
+                                                    <input type="submit" value="VALIDATE" id="btnValidate" class="btn btn-success" />
+                                                </td>
+                                                <td>
+                                                    <input type="button" value="Check Queue" id="btnReward" class="btn btn-success" onclick="displayResults('@item.Title','',0)" />
+                                                </td>
+                                                <td>
+                                                  @*  <a href="@Url.Action("AddMoreUpcs","Support")" id="btnMoreUpcs" class="btn btn-success">Add More UPC'S</a>*@
+                                            @*      *@
+                                                    <input type="button" value="Add More UPC'S" onclick="AddMoreUpc(true)" id="btnMoreUpcs" class="btn btn-success" />
+                                                </td>
+
+                                            </tr>
+                                        }
+                                    </tbody>
+                                    <tfoot></tfoot>
+                                </table>
+                                <h5><b><label id="lblRewardTitle" class="form-control bg-green-1 col-md-11"></label></b></h5>
+                                <div id="dvRewardResult" style="display:none;">
+                                </div>
+                            }
+                            else
+                            {
+                                <div>
+                                    No Rewards Found
+                                </div>
+                            }
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" /> 
+   <script type="text/javascript">
+        $(document).ready(function () {
+     
+        })
+        function AddMoreUpc() {
+            $.ajax({
+                method:"GET",
+                url: "/Support/AddMoreUpcs",
+                success:function(res){
+                   $("#md-3d-slit").addClass("md-show");
+                    $("#md-3d-slit-html").html(res);
+                    
+                }
+            })
+          
+        }
+      
+        function Close3DSlitModal(){
+         
+            $("#md-3d-slit").removeClass("md-show");
+        }
+        function displayResults(rewardtitle, rewardIdSel, isValidate) {
+            var action = '';
+            var resulttext = '';
+            var dataParam = {};
+            if (isValidate) {
+                resulttext = "Reward";
+                action = "/Support/ValidateRewardResults";
+                dataParam = { LoyaltyId: $('#lblMemberNo').text(), RewardId: rewardIdSel, FixImp: 0, FixGrp: 0, FixRed: 0 };
+            }
+            else {
+                resulttext = "Queue";
+                action = "/MobileView/QueueRewardResults";
+            }
+            //var onRewardSuc = function (result) {
+            //    //////debugger;
+            //    ajaxRequestEnd();
+            //    $('#dvRewardRes').css("display", "block");
+            //    $('#dvRewardRes').html('');
+            //    $('#dvRewardRes').html(result);
+            //    $('#lblRewardTitle').text(resulttext + ' results for :' + rewardtitle);
+            //}
+           // ajaxCall(action, "POST", dataParam, "HTML", onRewardSuc);
+           $.ajax({
+               method:"POST",
+                url: "/MobileView/QueueRewardResults",
+                data: dataParam,
+                success:function(res){
+                   
+                    $("#dvRewardResult").css("display","block");
+                    $("#dvRewardResult").html("");
+                    $("#dvRewardResult").html(res);
+                    $("#lblRewardTitle").text(resulttext+'results for :'+rewardtitle)
+                }
+           })
+        }
+        //    function displayResults(rewardtitle, rewardIdSel, isValidate) {
+        //    var action = '';
+        //    var resulttext = '';
+        //    var dataParam = {};
+        //    if (isValidate) {
+        //        resulttext = "Reward";
+        //        action = "/Support/ValidateRewardResults";
+        //        dataParam = { LoyaltyId: $('#lblMemberNo').text(), RewardId: rewardIdSel, FixImp: 0, FixGrp: 0, FixRed: 0 };
+        //    }
+        //    else {
+        //        resulttext = "Queue";
+        //        action = "/MobileView/QueueRewardResults";
+        //    }
+        //    var onRewardSuc = function (result) {
+        //        //////debugger;
+        //        ajaxRequestEnd();
+        //        $('#dvRewardRes').css("display", "block");
+        //        $('#dvRewardRes').html('');
+        //        $('#dvRewardRes').html(result);
+        //        $('#lblRewardTitle').text(resulttext + ' results for :' + rewardtitle);
+        //    }
+        //    ajaxCall(action, "POST", dataParam, "HTML", onRewardSuc);
+        //}
+   </script>
+
+}
+

@@ -1,0 +1,82 @@
+﻿@model LoginDemo.Models.RewardsModel;
+@{
+    ViewData["Title"] = "RewardStuck";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+<div class="padding:20px;">
+    <div>
+        @Html.LabelFor(c=>c.FindMember)
+        @Html.TextBoxFor(m => m.FindMember, Model.FindMember, new { @class = "form-control searchclass", @placeholder = "Member Number", @id = "rwdMember", @style = "width:15%" })
+    </div>
+    <div class="box-info">
+        <h4><b>MEMBER LOYALITY REWARDS VALIDATIONS</b></h4>
+         <table class="table-condensed">
+             <tbody>
+                 <tr>
+                     <td>
+                         @Html.Label("Select Reward:")
+                       
+                     </td>
+                  
+                  @*  <td>
+                            @Html.DropDownList("RewardsList", Model.DDLRewards, new { @class = "form-control", @id = "ddlRewards", @onchange = "onRewardSel()" })
+                    </td>*@
+                     <td>
+                         <input type="submit" id="btnReward" class="btn btn-success enterclick" value="VALIDATE"  />
+                     </td>
+                 </tr>
+             </tbody>
+         </table>
+         <div>
+             <span>
+                 @Html.CheckBox("Fix Redemptions",new {@id="chKFixRed",@onclick=""}) Fix Redemptions
+             </span>
+            <span>
+                @Html.CheckBox("Fix Impressions",new {@id="chKFix",@onclick=""}) Fix Impressions
+                </span>
+            <span>
+                    @Html.CheckBox("Fix Groups",new {@id="chKFixGrp",@onclick=""}) Fix Groups
+            </span>
+            <span>
+                    @Html.CheckBox("Fix Others",new {@id="chKFixOth",@onclick=""}) Fix Others
+            </span>
+         </div>
+    </div>
+    <div class="dvResetNotRedeem">
+        <table class="table-condensed">
+            <tbody>
+                <tr>
+                    <td>
+                        @Html.LabelFor(c => c.CouponId)
+                    </td>
+                    <td>
+                      
+                        @Html.TextBoxFor(c=>c.CouponId, new {@class="form-control",@id="txtCouponId",@placeholder="Enter Coupon Id"})              
+                    </td>
+                    <td>
+                        <input type="submit" value="Reset Not Redeemed" id="btnReward" onclick="displayGridOnReset()" class="btn btn-success" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            @Html.CheckBox("Delete Coupon",new {@id="chkDeleteCoupon",@onclick="displayGrids()"}) Delete Coupon
+        </div>
+    </div>
+    <div class="dvResGrid" style="display:none;">
+
+    </div>
+</div>
+@section scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function onRewardSel(){
+            $("#dvResGrid").removeAttr("style")
+        }
+    </script>
+
+}

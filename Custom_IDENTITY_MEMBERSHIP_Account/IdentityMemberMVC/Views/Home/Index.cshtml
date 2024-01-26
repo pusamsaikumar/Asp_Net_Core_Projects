@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<hr/>
+<h2>File Upload</h2>
+<div class="container col-5">
+    <form method="post" enctype="multipart/form-data" asp-action=""asp-controller="">
+           <div class="mb-3">
+               @*<input name="file" type="file" class="form-control" />*@
+
+            <input name="files" type="file" class="form-control" multiple />
+           </div>
+        <div class="mb-3">
+            <input  type="submit" class="btn btn-primary" value="File Upload" />
+        </div>
+        <div class="text-success">
+               @ViewBag.Message
+        </div>
+    </form>
+</div>

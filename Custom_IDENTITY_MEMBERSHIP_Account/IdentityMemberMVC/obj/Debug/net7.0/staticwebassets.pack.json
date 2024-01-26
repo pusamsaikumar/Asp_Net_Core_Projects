@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IdentityMemberMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IdentityMemberMVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\127-1274049_new-mobile-of-samsung-hd-png-download.png",
+      "PackagePath": "staticwebassets\\Uploads\\127-1274049_new-mobile-of-samsung-hd-png-download.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\app 3.webp",
+      "PackagePath": "staticwebassets\\Uploads\\app 3.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\app4.webp",
+      "PackagePath": "staticwebassets\\Uploads\\app4.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\apple1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\apple1.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\apple2.webp",
+      "PackagePath": "staticwebassets\\Uploads\\apple2.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\apple_logo_hero_1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\apple_logo_hero_1.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\baners7.webp",
+      "PackagePath": "staticwebassets\\Uploads\\baners7.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\banners3.webp",
+      "PackagePath": "staticwebassets\\Uploads\\banners3.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\banners4.webp",
+      "PackagePath": "staticwebassets\\Uploads\\banners4.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\banners5.webp",
+      "PackagePath": "staticwebassets\\Uploads\\banners5.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\Uploads\\iphone1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\iphone1.webp"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\IdentityMemberMVC\\IdentityMemberMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IdentityMemberMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IdentityMemberMVC.props",
+      "PackagePath": "build\\IdentityMemberMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IdentityMemberMVC.props",
+      "PackagePath": "buildMultiTargeting\\IdentityMemberMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IdentityMemberMVC.props",
+      "PackagePath": "buildTransitive\\IdentityMemberMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

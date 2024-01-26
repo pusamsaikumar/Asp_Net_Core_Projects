@@ -1,0 +1,243 @@
+﻿@model List<LoginDemo.Models.ShopperInfo>;
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
+
+<style>
+    .sortable:after {
+        font-family: FontAwesome;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .btn-group {
+        position: relative !important;
+        float: right !important;
+        margin-right: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .DTTT_button_copy {
+        display: none !important;
+        position: relative !important;
+        /*display: inline-block !important;*/
+        margin-right: 1px !important;
+        padding: 5px 8px !important;
+        border: 0px !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        font-size: 0.88em !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px !important;
+        background: #4a525f !important;
+    }
+
+    .DTTT_button_csv {
+        display: none !important;
+        position: relative !important;
+        /*display: inline-block !important;*/
+        margin-right: 1px !important;
+        padding: 5px 8px !important;
+        border: 0px !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        font-size: 0.88em !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px !important;
+        background: #4a525f !important;
+        margin-left: 1px !important;
+    }
+
+    .DTTT_button_xls {
+        position: relative !important;
+        display: inline-block !important;
+        margin-right: 1px !important;
+        padding: 5px 8px !important;
+        border: 0px !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        font-size: 0.88em !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px !important;
+        background: #4a525f !important;
+        margin-left: 1px !important;
+    }
+
+    embed[Attributes Style] {
+        width: 45px;
+        height: 27px;
+        vertical-align: -webkit-baseline-middle;
+    }
+
+    .DTTT_button_pdf {
+        position: relative !important;
+        display: inline-block !important;
+        margin-right: 1px !important;
+        padding: 5px 8px !important;
+        border: 0px !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        font-size: 0.88em !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px !important;
+        background: #4a525f !important;
+        margin-left: 1px !important;
+    }
+
+    .dataTables_length {
+        display: initial !important;
+    }
+
+    .DTTT_button_print {
+        display: none !important;
+        position: relative !important;
+        /*display: inline-block !important;*/
+        margin-right: 1px !important;
+        padding: 5px 8px !important;
+        border: 0px !important;
+        color: #fff !important;
+        cursor: pointer !important;
+        font-size: 0.88em !important;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px !important;
+        background: #4a525f !important;
+        margin-left: 1px !important;
+    }
+
+    .sortable.asc:after {
+        font-family: FontAwesome;
+        content: '\f0de';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .sortable.desc:after {
+        font-family: FontAwesome;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+    /*#md-3d-slit>.md-content{
+            width:1250px;
+            left:-300px;
+        }*/
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="@Url.Action("~/Scripts/CustomScripts/findshopperresults.js")"></script>
+</head>
+<body>
+    <div class="row" id="ProductpartialFrame">
+        <div class="col-sm-12 portlets ui-sortable">
+            <div  class="widget">
+                <div class="widget-header">
+                        <h2><strong>Search Result</strong></h2>
+                </div>
+                <div class="popup line" id="popupmsg">
+
+                </div>
+                <div class="widget-content padding">
+                    @if(Model.Count > 0){
+                        <div class="col-md-11">
+                            <table id="content-table1" class="table table-striped table-bordered table-hover ">
+                                <thead>
+                                   <tr>
+                                        <th class="sortable">First Name</th>
+                                        <th class="sortable">Last Name</th>
+                                        <th class="sortable">User Name</th>
+                                        <th class="sortable">Member Number </th>
+                                       <th class="sortable">Preffered Store</th>
+                                       <th></th>
+                                   </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var item in Model)
+                                    {
+                                        <tr>
+                                            <td width="15%">
+                                                 @Html.DisplayFor(m=>item.FIRSTNAME)
+                                            </td>
+                                            <td width="15%">
+                                                 @Html.DisplayFor(m=>item.LASTNAME)
+                                            </td>
+                                            <td width="20%">
+                                                @Html.DisplayFor(m=>item.USERNAME)
+                                            </td>
+                                            <td width="20%">
+                                                @Html.DisplayFor(m=>item.MemberNumber)
+                                            </td>
+                                            <td width="17%">
+                                                @Html.DisplayFor(m=>item.PREFERREDSTORE)
+                                            </td>
+                                            <td width="3%">
+                                                <div class="btn-group">
+                                                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" style="margin-bottom:-11px;">
+                                                        <i class="fa fa-cog"></i>&nbsp;<i class="caret"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu" role="menu" style="right: 0px !important;left:auto;">
+                                                      
+                                                        <li>
+                                                            <a href="#">Email New PIN</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Change Username</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Q Token</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Add Points</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Reward Stuck</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Coupon Not Working</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Mobile View</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Transaction Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                             
+                                            </td>
+
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <span class="style95">ShopperNotFound</span>
+                    }
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
