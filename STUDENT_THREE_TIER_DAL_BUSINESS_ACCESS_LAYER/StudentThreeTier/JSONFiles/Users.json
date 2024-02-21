@@ -1,0 +1,54 @@
+{
+  "UsersData": [
+    {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "UserName": "john.doe",
+      "Email": "john.doe@example.com",
+      "Address": "123 Main St, Cityville",
+      "PhoneNo": "123-456-7890"
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "UserName": "jane.smith",
+      "Email": "jane.smith@example.com",
+      "Address": "456 Oak St, Townsville",
+      "PhoneNo": "987-654-3210"
+    },
+    {
+      "FirstName": "Jones",
+      "LastName": "dev",
+      "UserName": "jane.smith",
+      "Email": "jone@example.com",
+      "Address": "456 Oak St, Townsville",
+      "PhoneNo": "987-788-547"
+    },
+    {
+      "FirstName": "James",
+      "LastName": "Smith",
+      "UserName": "james.smith",
+      "Email": "james.smith@example.com",
+      "Address": "874 Oak St, Townsville",
+      "PhoneNo": "447-654-3210"
+    },
+    {
+      "FirstName": "Richardson",
+      "LastName": "jackson",
+      "UserName": "jane",
+      "Email": "jackson@example.com",
+      "Address": "541 Oak St, Townsville",
+      "PhoneNo": "874-654-3210"
+    },
+    {
+      "FirstName": "Peter",
+      "LastName": "son",
+      "UserName": "peterson",
+      "Email": "peter@example.com",
+      "Address": "741 Oak St, Townsville",
+      "PhoneNo": "874-654-3210"
+    }
+
+  ]
+}
+

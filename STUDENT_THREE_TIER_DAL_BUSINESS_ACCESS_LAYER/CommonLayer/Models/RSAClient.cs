@@ -13,5 +13,9 @@ namespace CommonLayer.Models
         public string RSAClientName { get; set; }
         public string Stores { get; set; }
     }
+   public class RSAClientData
+    {
+        public List<RSAClient>? rSAClients { get; set; }
+    }
 
 }

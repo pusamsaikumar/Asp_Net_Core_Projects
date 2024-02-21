@@ -46,6 +46,8 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Cryptography.Xml;
 using static System.Collections.Specialized.BitVector32;
 using Microsoft.Extensions.Caching.Memory;
+using System.ServiceModel;
+
 //using Microsoft.AspNetCore.DataProtection;
 
 namespace StudentThreeTier.Controllers
@@ -62,6 +64,7 @@ namespace StudentThreeTier.Controllers
         private readonly IDataProtectionProvider _dataProtectionProvider;
         private readonly IHttpContextAccessor _context;
         private readonly IMemoryCache _memoryCache;
+        private readonly List<User> _users;
 
         public StudentController(
             IStudentRepository repo,
@@ -70,7 +73,9 @@ namespace StudentThreeTier.Controllers
              IOptions<ConnectionStrings> config,
              IDataProtectionProvider dataProtectionProvider,
              IHttpContextAccessor context,
-             IMemoryCache memoryCache
+             IMemoryCache memoryCache,
+              List<User> users
+
 
 
             )
@@ -83,6 +88,7 @@ namespace StudentThreeTier.Controllers
             _dataProtectionProvider = dataProtectionProvider;
             _context = context;
             _memoryCache = memoryCache;
+            _users = users;
         }
         // create student recordd
         [HttpPost]
@@ -104,7 +110,12 @@ namespace StudentThreeTier.Controllers
         public IActionResult GetAll()
         {
 
-           var result = _studentService.GetAllStudent();
+
+
+   
+
+            var result = _studentService.GetAllStudent();
+          
             if (result.Count == 0)
             {
                 return NotFound("Students records not found.");
@@ -112,8 +123,28 @@ namespace StudentThreeTier.Controllers
             return Ok(result);
         }
 
+        [HttpGet]
+        [Route("GetJsonFromConfigureService")]
+        public IActionResult GetJsonFromConfigureService()
+        {
+            try
+            {
+                var usersData = _users;
+                if (usersData == null)
+                {
+                    return NotFound("No json file data here...");
+                }
 
-  
+
+                return Ok(new { data = usersData });
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
 
         [HttpGet]
         [Route("GetByStudentId")]

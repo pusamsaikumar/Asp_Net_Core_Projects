@@ -5,7 +5,7 @@ using StudentThreeTier;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var startup = new StartUp(builder.Configuration);
+var startup = new StartUp(builder.Configuration, builder.Environment);
 
 // calling configure services
 startup.ConfigureServices(builder.Services);

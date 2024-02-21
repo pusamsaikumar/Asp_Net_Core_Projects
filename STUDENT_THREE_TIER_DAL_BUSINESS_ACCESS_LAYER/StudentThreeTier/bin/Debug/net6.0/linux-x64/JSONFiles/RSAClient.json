@@ -1,0 +1,36 @@
+
+ [
+    {
+      "RSAClientId": 1,
+      "RSAClientName": "Client one",
+      "Stores": "store one"
+
+    },
+    {
+      "RSAClientId": 2,
+      "RSAClientName": "Client two",
+      "Stores": "store two"
+
+    },
+    {
+      "RSAClientId": 3,
+      "RSAClientName": "Client three",
+      "Stores": "store three"
+
+    },
+    {
+      "RSAClientId": 4,
+      "RSAClientName": "Client four",
+      "Stores": "store four"
+
+
+    },
+    {
+      "RSAClientId": 5,
+      "RSAClientName": "Client five",
+      "Stores": "store five"
+
+
+    }
+  ]
+

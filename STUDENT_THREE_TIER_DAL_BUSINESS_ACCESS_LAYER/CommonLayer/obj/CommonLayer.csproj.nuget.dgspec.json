@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj": {}
+    "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj": {}
   },
   "projects": {
-    "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj": {
+    "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\Veritra\\.nuget\\packages\\",
-        "outputPath": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\obj\\",
+        "outputPath": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Veritra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "AWSSDK.SecretsManager": {
               "target": "Package",
               "version": "[3.7.302.6, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.6.1, )"
             },
             "Dapper": {
               "target": "Package",

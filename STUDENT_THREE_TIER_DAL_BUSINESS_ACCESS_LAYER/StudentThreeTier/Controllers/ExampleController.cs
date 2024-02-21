@@ -81,7 +81,7 @@ namespace StudentThreeTier.Controllers
 
 
             var data = _memoryCache.Get("JsonFile");
-            if (data == null)
+            if (data == null || data == "No data found")
             {
                 return NotFound("No data found.");
             }

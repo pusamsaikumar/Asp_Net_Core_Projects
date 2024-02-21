@@ -16,6 +16,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+
 using System.Net;
 using System.Text;
 
@@ -23,29 +24,66 @@ namespace StudentThreeTier
 {
     public class StartUp
     {
+        private readonly IWebHostEnvironment _env;
+
         //private readonly IConfiguration _configuration;
         public IConfiguration configRoot { get; set; }  
 
         // constructor
-        public StartUp(IConfiguration configuration)
+        public StartUp(IConfiguration configuration, IWebHostEnvironment env)
         {
            configRoot = configuration;
-            
+            _env = env;
         }
      
 
       
 
 
-        // load jsonfile
+
  
      
         // configure services
-        public void ConfigureServices(IServiceCollection services)
+        public async void ConfigureServices(IServiceCollection services)
         {
-            
+           // ConfigJsonFiles
+           
           
-          //  services.AddMvc();
+           
+            var path = Path.Combine(Environment.CurrentDirectory, @"JSONFiles\");
+           
+            // for RSAClient.json
+            IConfiguration config = new ConfigurationBuilder()
+            .SetBasePath(path)
+            .AddJsonFile("RSAClientData.json").Build();
+
+            // configure json data
+            //services.Configure<RSAClientData>(config);
+            //services.Configure<List<RSAClient>>(configRoot.GetSection("RSAClient"));
+
+
+            var rSAClients = config.GetSection("RSAClientData").Get<List<RSAClient>>();
+
+
+
+            // Register the list of items as a singleton
+            services.AddSingleton(rSAClients);
+
+
+         
+
+            // Users.json
+            IConfiguration usersCongfig = new ConfigurationBuilder()
+           .SetBasePath(path)
+           .AddJsonFile("Users.json").Build();
+
+            var users = usersCongfig.GetSection("UsersData").Get<List<User>>();
+
+            services.AddSingleton(users);
+
+            
+
+            //  services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen();
 
@@ -70,6 +108,7 @@ namespace StudentThreeTier
             services.AddScoped<IStudentyService,StudentService>();
             services.AddScoped<IEmployeeRepository , EmployeeRepository>(); 
             services.AddScoped<IEmployeeService , EmployeeService>();
+
             // transient service
             services.AddTransient<ITransientService , TaskService>();
             services.AddTransient<ITransientRepository, TaskRepository>();
@@ -98,6 +137,9 @@ namespace StudentThreeTier
             services.AddScoped<ILoginAuthRepo , LoginAuthRepo>();
             services.AddScoped<ILoginAuthService , LoginAuthService>();
 
+            // wcf service
+          //  services.AddScoped<IService,ServiceClient>();
+
             // add error handling exceptions here for method3
             services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
@@ -113,7 +155,7 @@ namespace StudentThreeTier
                     });
             });
             services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
-            // services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
+
 
             // add data protection for encrypt and decrypt:
             services.AddDataProtection();
@@ -177,6 +219,8 @@ namespace StudentThreeTier
                     };
 
                 });
+
+         
 
             services.AddSwaggerGen(options =>
             {

@@ -1,0 +1,14 @@
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net6.0\linux-x64\CommonLayer.deps.json
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net6.0\linux-x64\CommonLayer.runtimeconfig.json
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net6.0\linux-x64\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Release\net6.0\linux-x64\CommonLayer.pdb
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.csproj.AssemblyReference.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.AssemblyInfoInputs.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.AssemblyInfo.cs
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.csproj.CoreCompileInputs.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\refint\CommonLayer.dll
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.pdb
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\CommonLayer.genruntimeconfig.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Release\net6.0\linux-x64\ref\CommonLayer.dll

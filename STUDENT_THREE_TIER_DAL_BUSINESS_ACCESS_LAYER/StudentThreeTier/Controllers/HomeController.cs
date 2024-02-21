@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
+using System.ServiceModel;
 using System.Threading.Tasks.Sources;
 
 namespace StudentThreeTier.Controllers
 {
-    [Authorize]
+   // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class HomeController : ControllerBase
@@ -45,6 +47,9 @@ namespace StudentThreeTier.Controllers
         [Route("GetTaskIds")]
         public IActionResult GetTaskIds()
         {
+            
+
+
             //var transient1 = _transientService1.GetTaskID().ToString(); 
             //var transient2= _transientService2.GetTaskID().ToString();  
             //var scoped1= _scopedService1.GetTaskID().ToString();

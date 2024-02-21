@@ -15,3 +15,5 @@ D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net6.0\BusinessL
 D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net6.0\refint\BusinessLogicLayer.dll
 D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net6.0\BusinessLogicLayer.pdb
 D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net6.0\ref\BusinessLogicLayer.dll
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\bin\Debug\net6.0\BusinessLogicLayer.runtimeconfig.json
+D:\csharpprojects\StudentThreeTier\BusinessLoginLayer\obj\Debug\net6.0\BusinessLogicLayer.genruntimeconfig.cache

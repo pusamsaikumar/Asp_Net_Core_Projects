@@ -23,12 +23,16 @@ namespace StudentThreeTier.Controllers
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IMemoryCache _memoryCache;
         private readonly IDistributedCache _distributedCache;
+        private readonly List<RSAClient> _rSAClients;
+        private readonly List<User> _users;
 
         public FilesController(
             IAmazonS3 amazonS3,
             IWebHostEnvironment webHostEnvironment,
             IMemoryCache memoryCache,
-            IDistributedCache distributedCache
+            IDistributedCache distributedCache,
+            List<RSAClient> rSAClients,
+            List<User> users
             
 
 
@@ -37,7 +41,9 @@ namespace StudentThreeTier.Controllers
             _amazonS3 = amazonS3;
             _webHostEnvironment = webHostEnvironment;
             _memoryCache = memoryCache;
-            _distributedCache = distributedCache;   
+            _distributedCache = distributedCache;
+            _rSAClients = rSAClients;
+            _users = users;
         }
 
         [HttpPost]
@@ -274,5 +280,30 @@ namespace StudentThreeTier.Controllers
             
             return Ok(data);
         }
+
+        [HttpGet]
+        [Route("GetJsonFromConfigureService")]
+        public IActionResult GetJsonFromConfigureService()
+        {
+            try
+            {
+                var usersData = _users;
+                if(usersData == null)
+                {
+                    return NotFound("No json file data here...");
+                }
+
+               
+                return Ok(new { data = usersData});
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+           
+        }
+
+
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj": {
+    "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\Veritra\\.nuget\\packages\\",
-        "outputPath": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\obj\\",
+        "outputPath": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Veritra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "AWSSDK.SecretsManager": {
               "target": "Package",
               "version": "[3.7.302.6, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.6.1, )"
             },
             "Dapper": {
               "target": "Package",
@@ -97,14 +101,14 @@
         }
       }
     },
-    "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Veritra\\.nuget\\packages\\",
-        "outputPath": "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Veritra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "D:\\csharpprojects\\StudentThreeTier\\CommonLayer\\CommonLayer.csproj"
+              "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }
@@ -137,6 +141,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.28, )"

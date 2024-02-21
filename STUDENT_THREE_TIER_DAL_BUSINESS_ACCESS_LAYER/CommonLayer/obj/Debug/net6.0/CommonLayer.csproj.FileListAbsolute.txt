@@ -10,3 +10,5 @@ D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Debug\net6.0\refint\CommonLay
 D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Debug\net6.0\CommonLayer.pdb
 D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Debug\net6.0\ref\CommonLayer.dll
 D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Debug\net6.0\CommonLayer.csproj.AssemblyReference.cache
+D:\csharpprojects\StudentThreeTier\CommonLayer\bin\Debug\net6.0\CommonLayer.runtimeconfig.json
+D:\csharpprojects\StudentThreeTier\CommonLayer\obj\Debug\net6.0\CommonLayer.genruntimeconfig.cache

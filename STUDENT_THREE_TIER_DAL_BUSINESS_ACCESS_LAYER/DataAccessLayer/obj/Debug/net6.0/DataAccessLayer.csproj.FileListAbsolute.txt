@@ -13,3 +13,5 @@ D:\csharpprojects\StudentThreeTier\DataAccessLayer\obj\Debug\net6.0\DataAccessLa
 D:\csharpprojects\StudentThreeTier\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
 D:\csharpprojects\StudentThreeTier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
 D:\csharpprojects\StudentThreeTier\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+D:\csharpprojects\StudentThreeTier\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+D:\csharpprojects\StudentThreeTier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache

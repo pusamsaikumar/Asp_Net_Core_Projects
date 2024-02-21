@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "XOV0sektHfefRZ89qk8W7p7i/S8OFcvnKQEbvmg1hiE=",
+  "Hash": "iE3z7cYjPFBk8uJgVdx4zxXzHfUl9p5SK9nOkgRgFiA=",
   "Source": "StudentThreeTier",
   "BasePath": "_content/StudentThreeTier",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StudentThreeTier\\wwwroot",
+      "Source": "StudentThreeTier",
+      "ContentRoot": "D:\\csharpprojects\\StudentThreeTier\\StudentThreeTier\\wwwroot\\",
+      "BasePath": "_content/StudentThreeTier",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

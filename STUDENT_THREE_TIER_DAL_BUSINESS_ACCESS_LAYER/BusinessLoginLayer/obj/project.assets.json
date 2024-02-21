@@ -3698,6 +3698,7 @@
           "AWSSDK.Extensions.NETCore.Setup": "3.7.300",
           "AWSSDK.S3": "3.7.305.14",
           "AWSSDK.SecretsManager": "3.7.302.6",
+          "Amazon.Lambda.AspNetCoreServer.Hosting": "1.6.1",
           "Dapper": "2.1.28",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
           "Microsoft.AspNetCore.DataProtection.Abstractions": "6.0.0",
@@ -3716,6 +3717,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Amazon.Lambda.AspNetCoreServer.Hosting": "1.6.1",
           "CommonLayer": "1.0.0",
           "Dapper": "2.1.28",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
@@ -10006,11 +10008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\csharpprojects\\StudentThreeTier\\BusinessLoginLayer\\BusinessLogicLayer.csproj",
+      "projectUniqueName": "D:\\csharpprojects\\student -- three-tier projecct\\BusinessLoginLayer\\BusinessLogicLayer.csproj",
       "projectName": "BusinessLogicLayer",
-      "projectPath": "D:\\csharpprojects\\StudentThreeTier\\BusinessLoginLayer\\BusinessLogicLayer.csproj",
+      "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\BusinessLoginLayer\\BusinessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\Veritra\\.nuget\\packages\\",
-      "outputPath": "D:\\csharpprojects\\StudentThreeTier\\BusinessLoginLayer\\obj\\",
+      "outputPath": "D:\\csharpprojects\\student -- three-tier projecct\\BusinessLoginLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Veritra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10027,8 +10029,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\csharpprojects\\StudentThreeTier\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\csharpprojects\\student -- three-tier projecct\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
