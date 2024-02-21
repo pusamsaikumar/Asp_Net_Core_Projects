@@ -1,0 +1,102 @@
+﻿@model LoginDemo.Models.RetailersStoreModel;
+@{
+    ViewData["Title"] = "AddClientStore";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+<style>
+
+</style>
+<div  class="widget" id="data-result" style="width:900px;">
+    <div class="widget-header feature">
+        <a href="#" class="widget-toggle-result"></a>
+        <h2>Create<strong>Store</strong></h2>
+    </div>
+    <div class="widget-content">
+        <div class="row">
+          <div class="col-md-12 portlets">
+              <div class="widget animated fadeInDown">
+                    @using (Html.BeginForm("AddClientStore", "Global", FormMethod.Post, new { @class = "form-signin top", role = "form", @id = "myWizard", enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(c=>c.RSAClientId);
+                        <section class="step" data-step-title="General Info">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Name</label>
+                                        @Html.TextBoxFor(p=>p.StoreName, new {@class="form-control",@placeholder="Store Name"} )
+                                    </div>
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Profile</label><span class="red">*</span>
+                                        @Html.TextBoxFor(p=>p.StoreProfile, new {@class="form-control",@placeholder="Store Profile"} )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Email</label>
+                                        @Html.TextBoxFor(p=>p.StoreEmail, new {@class="form-control",@placeholder="Email"} )
+                                    </div>
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Phone</label><span class="red">*</span>
+                                        @Html.TextBoxFor(p=>p.StorePhone, new {@class="form-control",@placeholder="Store Phone"} )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Address</label><span class="red">*</span>
+                                        @Html.TextBoxFor(p=>p.AddressLine1, new {@class="form-control",@placeholder="Address"} )
+                                    </div>
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>City</label><span class="red">*</span>
+                                        @Html.TextAreaFor(p=>p.City, new {@class="form-control",@placeholder="City"} )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Zip Code</label><span class="red">*</span>
+                                        @Html.TextBoxFor(p=>p.ZipCode, new {@class="form-control",@placeholder="Zip Code"} )
+                                    </div>
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <label>Store Timings</label><span class="red">*</span>
+                                        @Html.TextAreaFor(p=>p.StoreTimings, new {@class="form-control",@placeholder="Store Timings"} )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:20px;">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6"></div>
+                                    <div class="col-sm-2">
+                                        <a href="@Url.Action("ViewClientStores","Global")" class="btn btn-default">Cancel</a>
+                                    </div>
+                                    <div>
+                                        <input type="submit"class="btn btn-success" value="Save" style="height:35px;width:105px;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    }
+                </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+   
+    <script>
+        $(document).ready(function () {
+            $('#myWizard').submit(function (e) {
+                $('#myWizard').submit();
+               
+
+            });
+    </script>
+
+}

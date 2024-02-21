@@ -1,0 +1,116 @@
+﻿
+@model LoginDemo.Models.RetailersModel;
+@{
+    ViewData["Title"] = "AddClient";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+<style>
+
+</style>
+
+<div class="widget" id="result-data" style="margin-right:305px;">
+    <div class="widget-header feature">
+        <a href="#" class="widget-toggle-result"></a>
+        <h2>Create<strong>Retailer</strong></h2>
+    </div>
+    <div class="widget-content">
+        <div class="row">
+            <div class="col-md-12 portlets"> 
+                <div class="widget animated fadeInDown">
+                    @using (Html.BeginForm("AddClient", "Global", FormMethod.Post, new { @class = "form-signin top", @id = "myWizard", enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(p=>p.RSAClientId)
+                        <section class="step" data-step-title="General Info">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Client Name</label>
+                                            @Html.TextBoxFor(p=>p.ClientName, new {@class="form-control" , @placeholder="ClientName",@id="ClientName"})
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Email</label><span class="red">*</span>
+                                            @Html.TextBoxFor(p=>p.Email, new {@class="form-control" , @placeholder="Email",@id="Email"})
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Android Arn</label>
+                                            @Html.TextBoxFor(p=>p.AndriodArn, new {@class="form-control" , @placeholder="AndriodArn",@id="AndriodArn"})
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Iphone Arn</label><span class="red">*</span>
+                                            @Html.TextBoxFor(p=>p.IphoneArn, new {@class="form-control" , @placeholder="IphoneArn",@id="IphoneArn"})
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>AllUsers Arn</label><span class="red">*</span>
+                                            @Html.TextBoxFor(p=>p.AllUsersArn, new {@class="form-control" , @placeholder="AllUsersArn",@id="AllUsersArn"})
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>DB Name</label><span class="red">*</span>
+                                            @Html.TextBoxFor(p=>p.DBName, new {@class="form-control" , @placeholder="DBName",@id="DBName"})
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-6" style="width:310px;">
+                                        <div class="form-group">
+                                            <label>Push Notification Enabled</label><span class="red">*</span>
+
+                                            
+                                            
+                                                @Html.DropDownListFor(p=>p.PushNOtificationEnabled,new []{ new SelectListItem {Text="Yes",Value="true"}, new SelectListItem {Text="No",Value="false"}},new{ @class="form-control",@placeholder="Push Notification Enabled"})
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-offset-8 col-sm-2"> 
+                                    <a class="btn btn-primary" href="@Url.Action("ViewRetailers","Global")" style="color:white !important;">Cancel</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <input type="submit" value="Save" class="btn btn-success"  style="width:105px;height:35px;"/>
+                                </div>
+                            </div>
+                        </section>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <partial name="_ValidationScriptsPartial" /> 
+   <script type="text/javascript">
+        $(document).ready(function () {
+           $("#myWizard").on("submit" , function(){
+                var clientName = $("#ClientName").Val();
+                if(clientName ==""){
+                    alert("req field name");
+                }else{
+                    $("#myWizard").submit();
+                }
+               
+           })
+        })
+   </script>
+}

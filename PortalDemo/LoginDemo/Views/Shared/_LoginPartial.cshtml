@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<ApplicationUser> userManager;
+@inject SignInManager<ApplicationUser> signinManager;
+
+    <ul class="navbar nav flex-sm-row-reverse">
+    @if (signinManager.IsSignedIn(User))
+    {
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+        </li>
+
+    }
+    else
+    {
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+        </li>
+
+    }
+    </ul>
+    

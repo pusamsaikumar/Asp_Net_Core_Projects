@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Find Shopper";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+
+@Html.Partial("_FindShopperScreen")
+@section scripts {
+   
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+   
+  
+}

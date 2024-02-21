@@ -1,0 +1,156 @@
+﻿@model List<LoginDemo.Models.ShopperInfo>;
+
+
+<script src="~/Scripts/CustomScripts/findshopper.js"></script>
+<link href="~/Content/findshopper.css" rel="stylesheet" />
+<script src="~/Scripts/CustomScripts/addpoints.js"></script>
+<script src="~/Scripts/CustomScripts/mobileview.js"></script>
+<script src="~/Scripts/CustomScripts/rewards.js"></script>
+
+<div id="popup" class="popup line"></div>
+<div class="row">
+        <div class="col-sm-12 portlets ui-sortable">
+            <div class="widget" style="padding-top:20px;">
+                  <div class="widget-content">
+                      <div class="style92">
+                          <div  class="row">
+                              <div class="col-sm-10">
+                                  <div class="col-sm-3">
+                                      <div class="form-group">
+                                          <label>User Name</label>
+                                          @Html.TextBox("SearchUserName",null, new { @class="form-control searchclass", @placeholder="User Name",@id="UserName" ,@onkeyup="fnName()"})
+                                 @*   <span id="userName" class="red"></span>*@
+                                   
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-3">
+                                <div class="form-group">
+                                    <label>Member Number</label>
+                                    @Html.TextBox("SearchMember", null, new { @class = "form-control searchclass", @placeholder = "Member Number", @id ="Member",@onkeyup="fnMember()" })
+                                 @*   <span id="memberNumber" class="red"></span>*@
+                                </div>
+                                  </div>
+                                 <div class="col-sm-3">
+                                      <label></label>
+                                <input type="button" id="btnSearchShopper" value="Search" onclick="SearchShopper();" class="form-control searchtextsize input-group-sm btn btn-success style96 " style="width:120px;margin-top:23px;" />
+                                 </div>
+                            <div class="col-sm-3">
+                                <label></label>
+                                <input type="button" id="btnreset" onclick="Reset()" value="Reset" class="form-control searchtextsize input-group-sm btn btn-default style96" style="width:120px;margin-left:-75px;margin-top:23px;" />
+                            </div>
+                           
+                              </div>
+                              <div class="col-sm-2">
+                            <label></label>
+                            <input type="button" id="btnshoppers" value="Download All Shoppers" onclick="DownloadShoppers();" class="form-control searchtextsize input-group-sm btn btn-success style96" style="width:175px; margin-left:-130px;margin-top:23px;"/>
+                              </div>
+                              <br/>
+                      
+                              <br/>
+                          </div>
+                          <div class="row">
+                             <div class="col-sm-12">
+                            <span id="userMember" class="red"></span>
+                             </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+</div>
+<div id="Shoppersearchresult" style="padding-bottom:20px;">
+    
+
+</div>
+<script>
+    function Reset(){
+window.location.href="/Support/FindShopper"
+    }
+    </script>
+
+<script>
+    function SearchShopper(){
+    
+        var UserName = $("#UserName").val();
+        var Member = $("#Member").val();
+        var dataParam = { UserName: UserName, MemberNumber: Member };
+       
+        $.ajax({
+
+            type: "POST",
+
+            url: '/Support/FindShopperSearchResult',
+
+            data: dataParam,
+
+            //data: form.serialize(),
+            success: function (result) {
+                //if (UserName != "" && Member == "" ){
+                //    $("#Shoppersearchresult").html(result);
+                //    $("#Shoppersearchresult").addClass("md-show");
+                //} else if (UserName == "" && Member != "") {
+                //    $("#Shoppersearchresult").html(result);
+                //    $("#Shoppersearchresult").addClass("md-show");
+                //} else if (UserName != "" && Member != ""){
+                //    $("#Shoppersearchresult").html(result);
+                //    $("#Shoppersearchresult").addClass("md-show");
+                //}else{
+                //    $("#Shoppersearchresult").removeClass("md-show");
+                //    $("#userName").html("Please Enter User Name");
+                //    $("#memberNumber").html("Please Enter Member Number");
+                 
+                    
+                //}
+                if (UserName == "" && Member == "" || UserName == null && Member == null) {
+                   
+                   // $("#userName").html("Please Enter User Name");
+                    //$("#memberNumber").html("Please Enter Member Number");
+                    $("#userMember").html("Please Enter Atleast UserName or MemberNumber");
+                    $("#ProductpartialFrame").css("display","none");
+                }else{
+                    $("#UserName").val("");
+                    $("#Member").val("");
+                    $("#userMember").html("");
+                   // $("#userName").html("");
+                   // $("#memberNumber").html("");
+                    $("#Shoppersearchresult").html(result);
+                        $("#Shoppersearchresult").addClass("md-show");
+                }
+
+                
+            },
+            error: function () {
+                alert('Failed to receive the Data');
+                $("#Shoppersearchresult").removeClass("md-show");
+                console.log('Failed ');
+            }
+        });
+    }
+</script>
+<script>
+    function DownloadShoppers(){
+        
+        window.location.href = '@Url.Action("GenerateStoreUsersReport", "Users")';
+    }
+</script>
+<script>
+  function  fnName(){
+        var UserName = $("#UserName").val();
+        var Member = $("#Member").val();
+        if (UserName != "") {
+            $("#userName").html("");
+        }else{
+            $("#userName").html("Please Enter User Name");
+        }
+  }
+    function fnMember() {
+        var UserName = $("#UserName").val();
+        var Member = $("#Member").val();
+        if (Member != "") {
+            $("#memberNumber").html("");
+        } else {
+            $("#memberNumber").html("Please Enter Member Number");
+        }
+    }
+</script>
+

@@ -1,0 +1,1123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LoginDemo</title>
+
+   @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/LoginDemo.styles.css" asp-append-version="true" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Content/admin/assets/js/init.js")"></script>
+    <link href="@Url.Content("~/Content/admin/assets/libs/nifty-modal/css/component.css")" rel="stylesheet" />*@
+
+    @* <link href="@Url.Content("~/Content/admin/assets/libs/jquery-magnific/magnific-popup.css")" rel="stylesheet" type="text/css" />*@
+@*    <link href="@Url.Content("~/Content/admin/assets/css/style.css")" rel="stylesheet" type="text/css" />*@
+   @* <link href="@Url.Content("~/Content/admin/assets/libs/jquery-icheck/skins/all.css")" rel="stylesheet" />*@
+
+   @*<link href="~/css/datatablecs/jquery.datatables.css" rel="stylesheet" />*@
+   @* <link href="~/css/datatablecs/jquery.datatables.min.css" rel="stylesheet" />*@
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery/jquery-1.11.1.min.js")"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jqueryui/jquery-ui-1.10.4.custom.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-ui-touch/jquery.ui.touch-punch.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-detectmobile/detect.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-animate-numbers/jquery.animateNumbers.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/ios7-switch/ios7.switch.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/fastclick/fastclick.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-blockui/jquery.blockUI.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-bootbox/bootbox.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-slimscroll/jquery.slimscroll.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-sparkline/jquery-sparkline.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/classie.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/modalEffects.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/sortable/sortable.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-fileinput/bootstrap.file-input.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-select/bootstrap-select.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-select2/select2.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/magnific-popup/jquery.magnific-popup.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-icheck/icheck.min.js")"></script>
+    @*<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>*@
+    <script src="@Url.Content("~/Scripts/jquery.validate.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.js")"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.6.2.js")"></script>
+    <!-- Demo Specific JS Libraries -->
+    <script src="@Url.Content("~/Content/admin/assets/libs/prettify/prettify.js")"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/init.js")"></script>
+    <script src="~/Content/admin/assets/libs/jquery-notifyjs/notify.min.js"></script>
+    <script src="~/Content/admin/assets/libs/jquery-notifyjs/styles/metro/notify-metro.js"></script>
+    <!-- Page Specific JS Libraries -->
+    <script src="@Url.Content("~/Content/admin/assets/libs/d3/d3.v3.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/raphael/raphael-min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/morrischart/morris.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-knob/jquery.knob.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-jvectormap/js/jquery-jvectormap-1.2.2.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-jvectormap/js/jquery-jvectormap-us-aea-en.js")"></script>
+    @*//Commented for support portal*@
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-easypiechart/jquery.easypiechart.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-weather/jquery.simpleWeather-2.6.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/js/bootstrap-editable.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-calendar/js/bic_calendar.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/apps/calculator.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/apps/todo.js")"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.js"></script>
+    @* -------- Form-Wizard -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-wizard/jquery.easyWizard.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/pages/form-wizard.js")"></script>
+    @* -------- Form-Element -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-select/bootstrap-select.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-inputmask/inputmask.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/summernote/summernote.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/pages/forms.js")"></script>
+    @* -------- Advance-Form-Element -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/js/bootstrap-editable.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/demo/jquery.mockjax.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/demo/demo-mock.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-select2/select2.min.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-clndr/moment-2.5.1.js")"></script>
+    @*<script src="@Url.Content("~/Content/admin/assets/libs/bootstrap-typeahead/bootstrap3-typeahead.min.js")"></script>*@
+    <script src="~/Content/admin/assets/libs/bootstrap-typeahead/bootstrap3-typeahead.min.js"></script>
+    <script src="~/Content/DateTime/moment.js"></script>
+    <script src="~/Content/DateTime/datetimepicker.js"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/ckeditor/ckeditor.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/ckeditor/adapters/jquery.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/pages/advanced-forms.js")"></script>
+    @* -------- Form Upload - Dropzone -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/libs/dropzone/dropzone.min.js")"></script>
+    @* -------- accordian -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/js/pages/tabs-accordions.js")"></script>
+
+    @* -------- datatable -------- *@
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-datatables/js/jquery.dataTables.min.js")"></script>
+    <script src="~/Content/Tabletools/Tabletool.js"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/jquery-datatables/js/dataTables.bootstrap.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/js/pages/datatables.js")"></script>
+
+    <link href="@Url.Content("~/Content/admin/assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/fontello/css/fontello.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/animate-css/animate.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/nifty-modal/css/component.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/magnific-popup/magnific-popup.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/ios7-switch/ios7-switch.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/sortable/sortable-theme-bootstrap.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-datepicker/css/datepicker.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/chosen/chosen.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-icheck/skins/all.css")" rel="stylesheet" />
+    <!-- Code Highlighter for Demo -->
+    <link href="@Url.Content("~/Content/admin/assets/libs/prettify/github.css")" rel="stylesheet" />
+    <!-- Extra CSS Libraries Start -->
+    <link href="@Url.Content("~/Content/admin/assets/libs/rickshaw/rickshaw.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/morrischart/morris.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-jvectormap/css/jquery-jvectormap-1.2.2.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-clock/clock.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-calendar/css/bic_calendar.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/sortable/sortable-theme-bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/jquery-weather/simpleweather.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/css/bootstrap-editable.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-select/bootstrap-select.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/summernote/summernote.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-select2/select2.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/bootstrap-xeditable/css/bootstrap-editable.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/libs/dropzone/css/dropzone.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/admin/assets/css/style.css")" rel="stylesheet" type="text/css" />
+    <!-- Extra CSS Libraries End -->
+    <link href="@Url.Content("~/Content/admin/assets/css/style-responsive.css")" rel="stylesheet" />
+    <link href="~/Content/admin/assets/libs/jquery-notifyjs/styles/metro/notify-metro.css" rel="stylesheet" />
+
+
+    <style>
+        .verticalcenter {
+            vertical-align: middle !important;
+        }
+
+        td {
+            vertical-align: middle !important;
+        }
+
+        .style-gv {
+            height: 200px !important;
+            width: 37.5vw !important;
+        }
+
+        .style-gv1 {
+            height: 150px !important;
+            width: 30.5vw !important;
+        }
+
+        .morecontents span {
+            display: none;
+        }
+
+        .loaderheight {
+            top: 40px !important;
+            position: relative;
+        }
+
+        .textright {
+            text-align: right;
+        }
+
+        .style-gh {
+            position: fixed;
+            bottom: 0;
+            left: 240px !important;
+            right: 0px !important;
+            background: #ffffff !important;
+            padding: 10px 0px 10px 0px !important;
+            z-index: 999;
+        }
+
+        .searchtextsize {
+            font-size: 15px !important;
+        }
+
+        .notifyjs-metro-base .text {
+            font-size: 15px !important;
+        }
+
+        .tablehead {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+
+        .style-gg {
+            /*height: 100vh;
+                    overflow: auto;*/
+        }
+
+        #wrapper.enlarged #footer {
+            left: 50px !important;
+        }
+
+        .red {
+            color: red !important;
+        }
+
+        div.feature {
+            position: relative;
+        }
+
+            div.feature a {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                text-decoration: none;
+                z-index: 10;
+                background-color: #FFF;
+                opacity: 0;
+                filter: alpha(opacity=1);
+            }
+
+        .popup {
+            display: none;
+        }
+
+        .line {
+            line-height: 2px !important;
+        }
+
+        .exampletable {
+            margin-left: auto;
+            margin-right: auto;
+            overflow-y: auto !important;
+            height: 150px;
+        }
+        img.img{
+                    height: 45px;
+                    margin-left:20px;
+                    margin-right: 40px;
+                    border:0px;
+                    vertical-align: middle;
+                    overflow-clip-margin: content-box;
+                    overflow: clip;
+
+                }
+    </style>
+</head>
+<body class="fixed-left">
+    @*logout model*@
+    <div class="md-modal md-just-me" id="logout-modal">
+        <div class="md-content">
+            <h3><strong>Logout</strong> Confirmation</h3>
+        </div>
+        <div>
+            <p class="text-center">Are you sure want to logout from this awesome system?</p>
+            <p class="text-center">
+                <button class="btn btn-danger md-close">
+                    Nope!
+                </button>
+                <a href="@Url.Action("Login","Account")" class="btn btn-success md-close" style=" color: #FFFFFF;">Yes, I'm sure'</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Modal 3D-Flip -->
+    <div class="md-modal md-3d-slit style-gt" id="md-3d-slit">
+        <div class="md-content">
+            <div class="md-close-btn"><a class="md-close" id="dvClose" onclick="Close3DSlitModal(); "><i class="fa fa-times"></i></a></div>
+            <div id="md-3d-slit-html">
+            </div>
+        </div>
+        <!-- End div .md-content -->
+    </div><!-- End div .md-modal .md-3d-slit -->
+    <div class="md-modal md-3d-slit style-gt style-gp1" id="md-3d-slit-advanced">
+        <div class="md-content">
+            <div class="md-close-btn"><a class="md-close" onclick="Close3DSlitAdvancedModal();"><i class="fa fa-times"></i></a></div>
+            <div id="md-3d-slit-html-advanced">
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3D-Flip  (Works with child popup (open a popup from a popup)) -->
+    <div class="md-modal md-3d-slit" id="md-3d-slit-child">
+        <div class="md-content">
+            <div class="md-close-btn"><a class="md-close" onclick="Close3DSlitChildModal();"><i class="fa fa-times"></i></a></div>
+            <div id="md-3d-slit-child-html">
+            </div>
+        </div><!-- End div .md-content -->
+    </div><!-- End div .md-modal .md-3d-slit -->
+    <!-- Form Modal  -->
+    <div class="md-modal md-slide-stick-top" id="form-modal">
+        <div class="md-content">
+            <div id="form-modal-html">
+            </div>
+        </div>
+    </div><!-- End .md-modal -->
+    <!-- Modal End -->   <!-- Modal End -->
+
+    <div id="wrapper" class="force">
+        <header>
+
+          
+
+            <div class="topbar">
+                <div class="topbar-left">
+                <div class="logo">
+                <h1><a href="@Url.Action("SystemOverView", "Support")">
+                <img src="~/Content/admin/assets/img/rsa.png" alt="Logo" style="height:90%;margin-right:40px;"></a></h1>
+                </div>`
+                <button class="button-menu-mobile open-left">
+                <i class="fa fa-bars"></i>
+                </button>
+                </div>
+                <div class="topbartext" style="padding: 15px; text-align: center;">
+                    <font color="yellow">Retailer Name:</font>
+                    <select id="ddlRetailer" name="RetailerName">
+                        <option value="261">Akins Foods</option>
+                        <option value="108">Alliance Grocery Kart</option>
+                    </select>
+                    <font color="yellow">
+                        <span id="ddlRetailerId"> 
+                            <a href="" style="color:yellow"> Akins Food</a>
+                        </span>
+                    </font>
+                </div>
+              
+            </div>
+        
+
+            <div class="left side-menu exampletable" style="top:50px;overflow:hidden;position:fixed; margin-top: 0px; height: 100%; bottom: 50px;margin-bottom: -50px;  padding-bottom: 50px;">
+
+                
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+                    <div class="sibebar-inner slimscrollleft" style="overflow: hidden; width: auto; height: 100%;">
+                        <div class="navbar-form form-group">
+                            <input type="text" placeholder="Shopper Email/Member Number"  id="UserText" class="form-control" name="User" >
+                            <button type="button" onclick="SearchUser();" class="btn search-button" id="btnSearchShpr"><i class="fa fa-search"></i></button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="profile-info">
+                            <div class="col-xs-4">
+                                <a href="#" class=" rounded-image profile-image">
+                                    <img src="@Url.Action("/wwwroot/Content/admin/images/UserImage.png")" />
+                                    </a>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="profile-button">
+                                    <a class="md-trigger" data-modal="logout-modal" href="javascript:;" title="Sign Out">
+                                        <i class="fa fa-power-off text-red-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr class="divider" />
+                        <div class="clearfix"></div>
+                        <div id="sidebar-menu">
+                            <ul class="sidebar-menu-ul">
+                                <li class="has_sub sub-shopper">
+                                    <a href='javascript:void(0);' class="d-block">
+                                        <i class='fa fa-user'></i>
+                                        <span>System Overview</span> 
+                                        <span class="pull-right">
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                            
+                                        </a>
+                                    <ul class="sidebar-menu-ul-child-Shopper nav">
+                                        <li>
+                                            <a href="@Url.Action("SystemOverView", "Support")" ><span>System Overview</span></a>
+                                        </li>
+                                     @*   <li>
+                                            <a href="@Url.Action("WeeklyAdandDowSchedule","Support")"><span>Weekly Ad & DOW Schedules</span></a>
+                                        </li>
+                                      
+                                        <li>
+                                            <a href="@Url.Action("RewardOpt_InStatus", "Support")"><span>Reward Opt-In Status</span></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="@Url.Action("CheckRewardQueue_Status", "Support")"><span>Reward Queue Status</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("RecurringQueueStatus", "Support")"><span>Recurring Queue Status</span></a>
+                                        </li>
+*@
+                                        <li>
+                                            <a href="@Url.Action("Pushnotification", "Support")"><span>Push Notification Queue</span></a>
+                                        </li>
+                                        @*<li>
+                                        <a href="@Url.Action("Qtokenqueue", "Support")"><span>QToken Queue Status</span></a>
+                                        </li>*@
+                                        <li>
+                                            <a href="@Url.Action("BasketReceived", "Support")"><span>Last Basket Received</span></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="@Url.Action("LastRedemption","Support")"><span>Last Redemptions Received</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("MissingQtoken", "Support")"><span>Missing Qtoken</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class='has_sub sub-support'>
+                                    <a href='javascript:void(0);'><i class='fa fa-users'></i><span>Shoppers</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="sidebar-menu-ul-child-Support nav">
+                                        <li><a href='@Url.Action("FindShopper", "Support")'><span>Find Shopper</span></a></li>
+                                        <li><a href='@Url.Action("RewardStuck", "Support")'><span>Reward Stuck</span></a></li>
+                                        @*<li><a href='@Url.Action("RewardQueueStatus", "Support")'><span>Reward Queue Status</span></a></li>*@
+                                        <li><a href='@Url.Action("GetMyRewards","Support")'><span>My Rewards</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class='has_sub sub-coupon'>
+                                    <a href='javascript:void(0);'><i class='fa fa-tags'></i><span>Coupons</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="sidebar-menu-ul-child-Coupon nav">
+                                        <li><a href='@Url.Action("ViewCoupon", "Coupon")'><span>Find Coupon</span></a></li>
+                                        <li><a href="@Url.Action("RecurringCoupons", "Coupon")"><span>Recurring Coupons</span></a></li>
+
+                                        @*<li><a href='@Url.Action("RecurringQueueStatus", "Coupon")'><span>Recurring Queue Status</span></a></li>*@
+                                    </ul>
+                                </li>
+
+                              @*  <li>
+                                    <a href="/TestGroupCoupon/LoadAllClients" class=""><i class="fa fa-tag"></i><span>Check Connectivity</span> </a>
+                                </li>*@
+                                <li class="has_sub sub-system opened">
+                                    <a href="javascript:void(0);" class=""><i class="fa fa-users"></i><span>System Monitoring</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="sidebar-menu-ul-child-System nav">
+                                     @*   <li><a href="/Support/RewardQueueStatus"><span>Reward Queue Status</span></a></li>
+                                        <li><a href="/Coupon/RecurringQueueStatus"><span>Recurring Queue Status</span></a></li>
+                                        <li><a href="/Users/CreateUser"><span>Create Shopper Accross Clients</span></a></li>*@
+                                        <li><a href="#"><span>Q Token Queue Status</span></a></li>
+                                        <li><a href="#"><span>Push Notification Queue</span></a></li>
+                                        <li><a href="#"><span>Last Basket Received</span></a></li>
+                                        <li><a href="/Support/RewardOpt_Ins"><span>Reward Opt-In Status</span></a></li>
+                                    </ul>
+                                </li>
+                               
+                                <li class='has_sub sub-redemption'>
+                                    <a href='javascript:void(0);'><i class='fa fa-circle'></i><span>Redemptions</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="sidebar-menu-ul-child-User nav">
+                                        <li><a href='@Url.Action("Getredemption", "Users")'><span>View Redemptions</span></a></li>
+
+                                    </ul>
+                                </li>
+                                <li class='has_sub sub-rsa'>
+                                    <a href='javascript:void(0);'><i class='fa fa-home'></i><span>RSA Client</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="sidebar-menu-ul-child-RSA nav">
+                                        <li><a href='@Url.Action("ViewRetailers", "Global")'><span>View Retailers</span></a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                      
+                    </div>
+               </div>
+                <div class="left-footer">
+                    <div class="progress progress-xs">
+                        <div class="progress-bar bg-green-1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="progress-precentage">80%</span>
+                        </div>
+
+                        <a data-toggle="tooltip" title="See task progress" class="btn btn-default md-trigger" data-modal="task-progress"><i class="fa fa-inbox"></i></a>
+                    </div>
+                </div>
+            </div>
+            @*        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+
+            <img src="@Url.Content("~/Content/admin/assests/img/rsa.png")" class="img" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+
+
+            </ul>
+            <partial name="_LoginPartial" />
+            </div>
+            </div>
+            </nav>*@
+            <div class="right side-menu">
+                <ul class="nav nav-tabs nav-justified" id="right-tabs">
+                    <li class="active"><a href="#feed" data-toggle="tab" title="Live Feed"><i class="icon-rss-2"></i></a></li>
+                    <li><a href="#connect" data-toggle="tab" title="Chat"><i class="icon-chat"></i></a></li>
+                    <li><a href="#settings" data-toggle="tab" title="Preferences"><i class="icon-wrench"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="feed">
+                        <div class="tab-inner slimscroller">
+                            <div class="search-right">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <div class="right-toolbar">
+                                <a href="javascript:;" class="pull-right">Settings <i class="icon-cog"></i></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="panel-group" id="collapse">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading bg-orange-1">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#rnotifications">
+                                                <i class="icon-bell-2"></i> Notifications
+                                                <span class="label bg-darkblue-1 pull-right">4</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="rnotifications" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ul class="list-unstyled" id="notification-list">
+                                                <li><a href="javascript:;"><span class="icon-wrapper"><i class="icon-video"></i></span> 1 Video Uploaded <span class="muted">12 minutes ago</span></a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper"><i class="icon-users-1"></i></span> 3 Users signed up <span class="muted">16 minutes ago</span></a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper"><i class="icon-picture-1"></i></span> 1 Video Uploaded <span class="muted">12 minutes ago</span></a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper"><i class="icon-hourglass-1"></i></span> Deadline for 1 project <span class="muted">12 minutes ago</span></a></li>
+                                            </ul>
+                                            <a class="btn btn-block btn-sm btn-warning">See all notifications</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading bg-green-3">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#remails">
+                                                <i class="icon-mail"></i> E-mails
+                                                <span class="label bg-darkblue-1 pull-right">3</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="remails" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ul class="list-unstyled" id="inbox-list">
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="sender"><i class="icon-star text-yellow-2"></i> Kim Wilde</span> <span class="datetime">6 mins ago</span>
+                                                        <span class="title">You keep me hangin on</span>
+                                                        <span class="content">Where are you? I am waiting for 3 hours in the restaurant. I ate 3 hamburgers.</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="sender">Tyler Durden</span> <span class="datetime">13 hours ago</span>
+                                                        <span class="title">Buy some soap from market before</span>
+                                                        <span class="content">We are crowded here. We need some more soap at home. Buy some before you come home.</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="sender">John Bonomo</span> <span class="datetime">Yesterday</span>
+                                                        <span class="title">Late delivery</span>
+                                                        <span class="content">Hello, I ordered 15 box of viagra for a friend of mine but he still hasn't receive them.</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a class="btn btn-block btn-sm btn-primary">Go to inbox</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading bg-blue-1">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#rupdates">
+                                                <i class="icon-signal-2"></i> Updates
+                                                <span class="label bg-darkblue-1 pull-right">5</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="rupdates" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ul class="list-unstyled" id="updates-list">
+                                                <li><a href="javascript:;"><span class="icon-wrapper bg-green-1"><i class="icon-comment-1"></i></span> <b>David Guetta</b> came online <abbr title="15 seconds ago">just now</abbr>.</a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper bg-red-1"><i class="icon-user-3"></i></span> <b>Katy Perry</b> updated her profile <abbr title="4 mins ago">4 mins ago</abbr>.</a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper bg-blue-1"><i class="icon-twitter-2"></i></span> <b>4 tweets posted</b> with cronjob <abbr title="22 mins ago">22 mins ago</abbr>.</a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper bg-orange-3"><i class="icon-water"></i></span> <b>Adele</b> set fire to the rain <abbr title="43 mins ago">43 mins ago</abbr>.</a></li>
+                                                <li><a href="javascript:;"><span class="icon-wrapper bg-pink-2"><i class="icon-heart-broken"></i></span> <b>Taylor Swift</b> learned that you are trouble <abbr title="3 hours ago">3 days ago</abbr>.</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="connect">
+                        <div class="tab-inner slimscroller">
+                            <div class="search-right">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <div class="panel-group" id="collapse">
+                                <div class="panel panel-default" id="chat-panel">
+                                    <div class="panel-heading bg-darkblue-2">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" href="#chat-coll">
+                                                <i class="icon-briefcase-1"></i> Colleagues
+                                                <span class="label bg-darkblue-1 pull-right">14</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="chat-coll" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ul class="list-unstyled" id="chat-list">
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/1.jpg">*@</span> <span class="chat-user-name">Dorothy Simons</span><span class="chat-user-msg">I wish I was a bird in the sky</span></a></li>
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/2.jpg">*@</span> <span class="chat-user-name">John Malkovich</span><span class="chat-user-msg">You were the traitor</span></a></li>
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/3.jpg">*@</span> <span class="chat-user-name">Jessica Simons</span><span class="chat-user-msg">Where is my mind</span></a></li>
+                                                <li><a href="javascript:;" class="away"><span class="chat-user-avatar">@*<img src="images/users/chat/4.jpg">*@</span> <span class="chat-user-name">Jack Stallman</span><span class="chat-user-msg">Away since 13:32</span></a></li>
+                                                <li><a href="javascript:;" class="offline"><span class="chat-user-avatar">@*<img src="images/users/chat/5.jpg">*@</span> <span class="chat-user-name">Neil Armstrong</span><span class="chat-user-msg" title="I am flying to the moon and back">I am flying to the moon and back</span></a></li>
+                                                <li><a href="javascript:;" class="offline"><span class="chat-user-avatar">@*<img src="images/users/chat/6.jpg">*@</span> <span class="chat-user-name">Hollywood Studios</span><span class="chat-user-msg">Yes he definitely is!</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default" id="chat-panel">
+                                    <div class="panel-heading bg-darkblue-2">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                <i class="icon-heart-3"></i> Friends
+                                                <span class="label bg-darkblue-1 pull-right">3</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <ul class="list-unstyled" id="chat-list">
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/1.jpg">*@</span> <span class="chat-user-name">Dorothy Simons</span><span class="chat-user-msg">I wish I was a bird in the sky</span></a></li>
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/2.jpg">*@</span> <span class="chat-user-name">John Malkovich</span><span class="chat-user-msg">You were the traitor</span></a></li>
+                                                <li><a href="javascript:;" class="online"><span class="chat-user-avatar">@*<img src="images/users/chat/3.jpg">*@</span> <span class="chat-user-name">Jessica Simons</span><span class="chat-user-msg" title="Eminem - The Monster ft. Rihanna"><i class="icon-play"></i> Eminem - The Monster ft. Rihanna</span></a></li>
+                                                <li><a href="javascript:;" class="away"><span class="chat-user-avatar">@*<img src="images/users/chat/4.jpg">*@</span> <span class="chat-user-name">Jack Stallman</span><span class="chat-user-msg">Away since 13:32</span></a></li>
+                                                <li><a href="javascript:;" class="offline"><span class="chat-user-avatar">@*<img src="images/users/chat/5.jpg">*@</span> <span class="chat-user-name">Neil Armstrong</span><span class="chat-user-msg" title="I am flying to the moon and back">I am flying to the moon and back</span></a></li>
+                                                <li><a href="javascript:;" class="offline"><span class="chat-user-avatar">@*<img src="images/users/chat/6.jpg">*@</span> <span class="chat-user-name">Hollywood Studios</span><span class="chat-user-msg">Yes he definitely is!</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="settings">
+                        <div class="tab-inner slimscroller">
+                            <div class="col-sm-12">
+                                <h3>Preferences</h3>
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                        Live data updates
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="checkbox" class="ios-switch ios-switch-success ios-switch-sm" checked />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                        Live feeds
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="checkbox" class="ios-switch ios-switch-success ios-switch-sm" checked />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                        Sync data to cloud
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="checkbox" class="ios-switch ios-switch-success ios-switch-sm" checked />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-8">
+                                        Keep activity record
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="checkbox" class="ios-switch ios-switch-danger ios-switch-sm" checked />
+                                    </div>
+                                </div>
+                                <h4>Other Settings</h4>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="checkboxw"><input type="checkbox" checked> Autosave settings</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="checkboxw"><input type="checkbox"> Always online</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-page style-gg">
+                <!-- ============================================================== -->
+                <!-- Start Content here -->
+                <!-- ============================================================== -->
+                <div class="content">
+
+                    @*<div id="divLoading">Loading....</div>*@
+                    @RenderBody()
+                    <hr/>
+
+                    <!-- Footer Start -->
+
+                    <footer>
+                        RSA Support &copy; @DateTime.Today.Year
+                        <div class="footer-links pull-right">
+                            <div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- Footer End -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End content here -->
+                <!-- ============================================================== -->
+
+            </div>
+            
+           @* @RenderBody()*@
+        </header>
+        @*<div class="container">
+            <main role="main" class="pb-3">
+               
+            </main>
+        </div>*@
+
+      @*  <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - LoginDemo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+
+    </div>
+    <div class="md-overlay"></div>
+    <script>
+        var resizefunc = [];
+    </script>
+    <script src="~/js/datatable/jquery.datatables.js"></script>
+    <script src="~/datatable/jquery.datatables.js"></script>
+    <script src="~/datatable/jquery.datatables.min.js"></script>
+    <script src="~/js/datatable/jquery.datatables.min.js"></script>
+    
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/classie.js")"></script>
+    <script src="@Url.Content("~/Content/admin/assets/libs/nifty-modal/js/modalEffects.js")"></script>
+  @*  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>*@
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+<script>
+    $loading = $('#divloading').hide();
+    $(document)
+        .ajaxstart(function () {
+            $loading.show();
+        })
+        .ajaxstop(function () {
+            $loading.hide();
+        });
+    $(document).ready(function () {
+       // var client = ;
+       var client="";
+        if (client != 0) {
+            $('#ddlretailer').val(client);
+            //set client selected values
+            $('#ddlretailer').change(function () {
+                setclientselected();
+            });
+            $(".searchclass").keypress(function (event) {
+                if (event.keycode == 13) {
+                    $('.enterclick').click();
+                    return false;
+                }
+
+            });
+        }
+    });
+    $(function () {
+        function striptrailingslash(str) {
+            if (str.substr(-1) == '/') {
+                return str.substr(0, str.length - 1);
+            }
+            return str;
+        }
+        var has_sub = $('.has_sub');
+        function openmenu(cls) {
+         
+            has_sub.children(cls).slidedown();
+            has_sub.addclass('opened');
+        }
+        function closemenu(cls) {
+           
+            has_sub.children(cls).slideup();
+            has_sub.removeclass('opened');
+        }
+        var url = "";
+        url = window.location.pathname;
+
+        var activepage = striptrailingslash(url);
+        $('.sidebar-menu-ul li a').each(function () {
+            var currentpage = striptrailingslash($(this).attr('href'));
+            var new_url = "";
+            new_url = currentpage;
+
+            var n = activepage.split("/");
+            if (activepage == new_url) {
+                if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-product')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-product').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-product')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-product')
+                    }
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-shopper')) {
+                  
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-shopper').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-shopper')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-shopper')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-loyalty')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-loyalty').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-loyalty')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-loyalty')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-message')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-message').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-message')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-message')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-report')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-report').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-report')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-report')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-coupon')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-coupon').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-coupon')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-coupon')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-store')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-store').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-store')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-store')
+                    }
+                    // sessionstorage.clear();
+                }
+                else if ($(this).closest('ul').hasclass('sidebar-menu-ul-child-config nav')) {
+                    $(this).parents('li').addclass('active');
+
+                    if ($('.sidebar-menu-ul-child-config').hasclass('opened')) {
+                        closemenu('.sidebar-menu-ul-child-config')
+                    } else {
+                        openmenu('.sidebar-menu-ul-child-config')
+                    }
+                    // sessionstorage.clear();
+                }
+                $(this).addclass('active');
+                return true;
+            }
+        });
+    });
+    var dropdowns = $(".box_dropdown");
+
+    // onclick on a dropdown, toggle visibility
+    dropdowns.find("dt").click(function () {
+        alert("dslkfj")
+        dropdowns.find("dd ul").hide();
+        $(this).next().children().toggle();
+    });
+
+    // clic handler for dropdown
+    dropdowns.find("dd ul li a").click(function () {
+      
+        var lespan = $(this).parents(".box_dropdown").find("dt a span");
+
+        // remove selected class
+        $(this).parents(".box_dropdown").find('dd a').each(function () {
+            $(this).removeclass('selected');
+        });
+
+        // update selected value
+        lespan.html($(this).html());
+
+        // if back to default, remove selected class else addclass on right element
+        if ($(this).hasclass('default')) {
+            lespan.removeclass('selected')
+        }
+        else {
+            lespan.addclass('selected');
+            $(this).addclass('selected');
+        }
+
+        // close dropdown
+        $(this).parents("ul").hide();
+    });
+
+    // close all dropdown onclick on another element
+    $(document).bind('click', function (e) {
+         
+        if ($(e.target).parents().hasclass("box_dropdown")) $(".box_dropdown dd ul").hide();
+    });
+
+    $(function () {
+        $('#couponfromdate').datetimepicker();
+        $('#coupontodate').datetimepicker();
+        $('#couponrecurenddate').datetimepicker();
+    });
+
+
+    function notify(style, text, position) {
+        if (style == "error") {
+            icon = "fa fa-exclamation";
+        } else if (style == "warning") {
+            icon = "fa fa-warning";
+        } else if (style == "success") {
+            icon = "fa fa-check";
+        } else if (style == "info") {
+            icon = "fa fa-question";
+        } else {
+            icon = "fa fa-circle-o";
+        }
+        $.notify({
+            title: '',
+            text: text,
+            image: "<i class='" + icon + "'></i>"
+        }, {
+            style: 'metro',
+            classname: style,
+            globalposition: position,
+            showanimation: "show",
+            showduration: 0,
+            hideduration: 0,
+            autohidedelay: 10000,
+            autohide: true,
+            clicktohide: true
+        });
+    }
+
+    $("#usertext").keypress(function (e) {
+        if (e.which == 13) {
+            $("#btnsearchshpr").click();
+        }
+    });
+</script>
+<script>
+    //Shopper dropdown
+
+    $('.sidebar-menu-ul-child-Shopper').hide();
+    $('.sub-shopper').click(function () {
+
+        $('.sidebar-menu-ul-child-Shopper').slideToggle(460);
+        if ($('.sub-shopper span i').hasClass('fa fa-angle-down')) {
+            $('.sub-shopper span i').removeClass().addClass('fa fa-angle-up');
+            $('.sidebar-menu-ul-child-Shopper li a:first').addClass("active");
+            
+            
+        } else {
+            $('.sub-shopper span i').removeClass().addClass('fa fa-angle-down');
+            $('.sidebar-menu-ul-child-Shopper li a:first').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+    // Support dropdown
+
+    $('.sidebar-menu-ul-child-Support').hide();
+    $('.sub-support').click(function () {
+     
+        $('.sidebar-menu-ul-child-Support').slideToggle(460);
+        if ($('.sub-support span i').hasClass('fa fa-angle-down')) {
+            $('.sub-support span i').removeClass().addClass('fa fa-angle-up');
+          //  $('.sidebar-menu-ul-child-Support li a:first').addClass("active");
+
+
+        } else {
+            $('.sub-support span i').removeClass().addClass('fa fa-angle-down');
+          //  $('.sidebar-menu-ul-child-Support li a:first').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+    // Coupon dropdown
+
+    $('.sidebar-menu-ul-child-Coupon').hide();
+    $('.sub-coupon').click(function () {
+
+        $('.sidebar-menu-ul-child-Coupon').slideToggle(460);
+        if ($('.sub-coupon span i').hasClass('fa fa-angle-down')) {
+            $('.sub-coupon span i').removeClass().addClass('fa fa-angle-up');
+           // $('.sidebar-menu-ul-child-Coupon li a:first').addClass("active");
+
+
+        } else {
+            $('.sub-coupon span i').removeClass().addClass('fa fa-angle-down');
+           // $('.sidebar-menu-ul-child-Coupon').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+    // Monitoring dropdown
+
+    $('.sidebar-menu-ul-child-System').hide();
+    $('.sub-system').click(function () {
+
+        $('.sidebar-menu-ul-child-System').slideToggle(460);
+        if ($('.sub-system span i').hasClass('fa fa-angle-down')) {
+            $('.sub-system span i').removeClass().addClass('fa fa-angle-up');
+           // $('.sidebar-menu-ul-child-System li a:first').addClass("active");
+
+
+        } else {
+            $('.sub-system span i').removeClass().addClass('fa fa-angle-down');
+          //  $('.sidebar-menu-ul-child-System').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+    // Redemption dropdown
+
+    $('.sidebar-menu-ul-child-User').hide();
+    $('.sub-redemption').click(function () {
+
+        $('.sidebar-menu-ul-child-User').slideToggle(460);
+        if ($('.sub-redemption span i').hasClass('fa fa-angle-down')) {
+            $('.sub-redemption span i').removeClass().addClass('fa fa-angle-up');
+           // $('.sidebar-menu-ul-child-User li a:first').addClass("active");
+
+
+        } else {
+            $('.sub-redemption span i').removeClass().addClass('fa fa-angle-down');
+           // $('.sidebar-menu-ul-child-Userli a:first').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+    // Rsa dropdown
+
+    $('.sidebar-menu-ul-child-RSA').hide();
+    $('.sub-rsa').click(function () {
+
+        $('.sidebar-menu-ul-child-RSA').slideToggle(460);
+        if ($('.sub-rsa span i').hasClass('fa fa-angle-down')) {
+            $('.sub-rsa span i').removeClass().addClass('fa fa-angle-up');
+            // $('.sidebar-menu-ul-child-RSA li a:first').addClass("active");
+
+
+        } else {
+            $('.sub-rsa span i').removeClass().addClass('fa fa-angle-down');
+            // $('.sidebar-menu-ul-child-RSA a:first').removeClass("active");
+        }
+    });
+
+
+
+</script>
+<script>
+      // toggle functionality
+    $(".button-menu-mobile").click(function(){ 
+        if ($('#wrapper').hasClass("force")){
+         
+            $('#wrapper').removeClass().addClass("enlarged");
+        }else{
+            $('#wrapper').removeClass().addClass("force");
+        }
+    });
+</script>
+<script>
+    $('#logout-modal').click(function(){
+        $('#logout-modal').addClass("md-show");
+        
+      
+    })
+</script>

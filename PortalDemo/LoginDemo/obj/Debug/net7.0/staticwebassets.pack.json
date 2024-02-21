@@ -1,0 +1,1509 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LoginDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LoginDemo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\1epgUO0.jpg",
+      "PackagePath": "staticwebassets\\Content\\1epgUO0.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\DateTime\\datetimepicker.js",
+      "PackagePath": "staticwebassets\\Content\\DateTime\\datetimepicker.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\DateTime\\moment.js",
+      "PackagePath": "staticwebassets\\Content\\DateTime\\moment.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\EditableTable\\editable.css",
+      "PackagePath": "staticwebassets\\Content\\EditableTable\\editable.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\EditableTable\\editable.js",
+      "PackagePath": "staticwebassets\\Content\\EditableTable\\editable.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\EditableTable\\mockajax.js",
+      "PackagePath": "staticwebassets\\Content\\EditableTable\\mockajax.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\EditableTable\\select2.css",
+      "PackagePath": "staticwebassets\\Content\\EditableTable\\select2.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\EditableTable\\select2.js",
+      "PackagePath": "staticwebassets\\Content\\EditableTable\\select2.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\PagedList.css",
+      "PackagePath": "staticwebassets\\Content\\PagedList.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\Tabletools\\Tabletool.js",
+      "PackagePath": "staticwebassets\\Content\\Tabletools\\Tabletool.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\TimeZone\\clienttimezone.js",
+      "PackagePath": "staticwebassets\\Content\\TimeZone\\clienttimezone.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\NcrCloudConnect (1).png",
+      "PackagePath": "staticwebassets\\Content\\admin\\NcrCloudConnect (1).png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Content\\admin\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assests\\img\\rsa.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assests\\img\\rsa.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-114x114.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-114x114.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-120x120.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-120x120.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-144x144.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-144x144.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-152x152.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-152x152.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-57x57.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-57x57.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-72x72.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-72x72.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon-76x76.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon-76x76.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\avatar\\1.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\avatar\\1.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\avatar\\2.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\avatar\\2.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\avatar\\3.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\avatar\\3.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\avatar\\4.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\avatar\\4.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\avatar\\5.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\avatar\\5.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\gmap\\m1.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\gmap\\m1.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\gmap\\m2.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\gmap\\m2.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\gmap\\m3.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\gmap\\m3.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\inv-logo.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\inv-logo.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\login-logo.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\login-logo.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\img\\rsa.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\img\\rsa.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\inlineall\\logo.html",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\inlineall\\logo.html"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\apps\\calculator.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\apps\\calculator.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\apps\\notes.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\apps\\notes.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\apps\\todo.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\apps\\todo.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\init.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\init.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\advanced-forms.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\advanced-forms.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\calendar.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\calendar.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\datatables.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\datatables.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\form-validation.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\form-validation.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\form-wizard.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\form-wizard.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\forms.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\forms.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\google-maps.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\google-maps.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\index.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\index.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\index2.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\index2.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\lockscreen.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\lockscreen.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\morris-charts.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\morris-charts.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\nested-list.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\nested-list.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\new-message.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\new-message.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\notifications.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\notifications.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\other-charts.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\other-charts.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\rickshaw-charts.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\rickshaw-charts.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\sparkline-charts.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\sparkline-charts.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\tabs-accordions.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\tabs-accordions.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\js\\pages\\vector-maps.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\js\\pages\\vector-maps.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\animate-css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\animate-css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-bootbox\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-bootbox\\bootbox.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-calendar\\css\\bic_calendar.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-calendar\\css\\bic_calendar.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-calendar\\js\\bic_calendar.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-calendar\\js\\bic_calendar.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-datepicker\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-datepicker\\css\\datepicker.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-datepicker\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-datepicker\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-fileinput\\bootstrap.file-input.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-fileinput\\bootstrap.file-input.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-inputmask\\inputmask.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-inputmask\\inputmask.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2-spinner.gif"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select2\\select2.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-select\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-select\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-typeahead\\bootstrap3-typeahead.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-typeahead\\bootstrap3-typeahead.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-validator\\css\\bootstrapValidator.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-validator\\css\\bootstrapValidator.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-validator\\js\\bootstrapValidator.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-validator\\js\\bootstrapValidator.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\demo\\demo-mock.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\demo\\demo-mock.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\demo\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\demo\\jquery.mockjax.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\img\\clear.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\js\\bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap-xeditable\\js\\bootstrap-editable.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\chosen\\chosen.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\chosen\\chosen.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\d3\\d3.v3.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\d3\\d3.v3.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dateandtime\\bootstrap-datetimepicker.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dateandtime\\bootstrap-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dateandtime\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dateandtime\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dropzone\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dropzone\\css\\dropzone.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dropzone\\images\\spritemap.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dropzone\\images\\spritemap.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\dropzone\\images\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\dropzone\\images\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fastclick\\fastclick.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fastclick\\fastclick.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fontello\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fontello\\css\\fontello.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.svg",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.svg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.ttf",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.ttf"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.woff",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fontello\\font\\fontellob406.woff"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\ios7-switch\\ios7-switch.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\ios7-switch\\ios7-switch.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\ios7-switch\\ios7.switch.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\ios7-switch\\ios7.switch.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-animate-numbers\\jquery.animateNumbers.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-animate-numbers\\jquery.animateNumbers.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-blockui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-blockui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-clndr\\moment-2.5.1.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-clndr\\moment-2.5.1.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-clock\\clock.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-clock\\clock.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-clock\\clock.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-clock\\clock.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\css\\dataTables.tableTools.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\css\\dataTables.tableTools.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\background.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\background.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\collection.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\collection.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\collection_hover.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\images\\collection_hover.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\js\\dataTables.tableTools.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\extensions\\TableTools\\js\\dataTables.tableTools.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-detectmobile\\detect.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-detectmobile\\detect.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-easypiechart\\jquery.easy-pie-chart.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-easypiechart\\jquery.easy-pie-chart.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-easypiechart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-easypiechart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-gmap3\\gmap3.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-gmap3\\gmap3.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\icheck.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\all.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\all.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\_all.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\_all.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\aero.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\aero.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\aero@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\blue.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\blue.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\blue@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\flat.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\flat.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\flat@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\flat@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\green.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\green.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\green@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\green@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\grey.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\grey.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\grey@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\orange.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\orange.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\orange@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\pink.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\pink.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\pink@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\purple.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\purple.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\purple@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\red.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\red.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\red@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\red@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\yellow.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\yellow.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\flat\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\futurico\\futurico@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\_all.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\_all.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\line.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\line.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\line@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\line\\line@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\_all.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\_all.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\aero.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\aero.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\aero@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\blue.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\blue.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\blue@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\green.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\green.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\green@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\green@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\grey.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\grey.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\grey@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\minimal.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\minimal.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\minimal@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\minimal@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\orange.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\orange.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\orange@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\pink.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\pink.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\pink@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\purple.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\purple.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\purple@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\red.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\red.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\red@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\red@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\yellow.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\yellow.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\minimal\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\polaris\\polaris@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\_all.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\_all.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\aero.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\aero.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\blue.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\blue.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\green.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\green.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\green@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\grey.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\grey.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\orange.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\orange.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\pink.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\pink.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\purple.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\purple.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\red.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\red.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\red@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\square.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\square.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\square@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\yellow.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-icheck\\skins\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\css\\jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\css\\jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-jvectormap\\js\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-knob\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-knob\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-knob\\jquery.knob.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-notifyjs\\notify.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-notifyjs\\notify.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-notifyjs\\styles\\metro\\notify-metro.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-notifyjs\\styles\\metro\\notify-metro.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-notifyjs\\styles\\metro\\notify-metro.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-notifyjs\\styles\\metro\\notify-metro.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-sparkline\\jquery-sparkline.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-sparkline\\jquery-sparkline.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-ui-touch\\jquery.ui.touch-punch.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-ui-touch\\jquery.ui.touch-punch.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.svg",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.svg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.ttf",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.woff",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfont.woff"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\artill_clean_icons-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\jquery.simpleWeather-2.6.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\jquery.simpleWeather-2.6.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-weather\\simpleweather.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-weather\\simpleweather.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery-wizard\\jquery.easyWizard.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery-wizard\\jquery.easyWizard.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jquery\\jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jquery\\jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jqueryui\\jquery-ui-1.10.4.custom.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jqueryui\\jquery-ui-1.10.4.custom.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\jqueryui\\ui-lightness\\jquery-ui-1.10.4.custom.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\jqueryui\\ui-lightness\\jquery-ui-1.10.4.custom.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\morrischart\\morris.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\morrischart\\morris.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\morrischart\\morris.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\morrischart\\morris.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\nifty-modal\\css\\component.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\nifty-modal\\css\\component.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\nifty-modal\\js\\classie.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\nifty-modal\\js\\classie.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\nifty-modal\\js\\modalEffects.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\nifty-modal\\js\\modalEffects.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\pace\\pace.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\pace\\pace.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\pace\\pace.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\pace\\pace.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\prettify\\github.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\prettify\\github.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\prettify\\prettify.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\prettify\\prettify.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\raphael\\raphael-min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\raphael\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\rickshaw\\rickshaw.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\rickshaw\\rickshaw.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\rickshaw\\rickshaw.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\rickshaw\\rickshaw.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\sortable\\sortable-theme-bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\sortable\\sortable-theme-bootstrap.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\assets\\libs\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\assets\\libs\\summernote\\summernote.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\chkCross.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\chkCross.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\NoImage.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\NoImage.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\UserImage.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\UserImage.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img001.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img001.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img002.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img002.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img003.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img003.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img004.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img004.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img005.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img005.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img006.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img006.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img007.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img007.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img008.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img008.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img009.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img009.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\big\\img010.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\big\\img010.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\noimage100.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\noimage100.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img001_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img001_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img002_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img002_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img003_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img003_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img004_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img004_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img005_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img005_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img006_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img006_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img007_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img007_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img008_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img008_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img009_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img009_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\small\\img010_small.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\small\\img010_small.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\stock\\1epgUO0.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\stock\\1epgUO0.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\1.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\1.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\19.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\19.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\2.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\3.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\4.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\4.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\5.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\5.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\chat\\6.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\chat\\6.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\default-user.png",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\default-user.png"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\user-100.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\user-100.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\user-256.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\user-256.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\users\\user-35.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\users\\user-35.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\admin\\images\\weather\\weather-bg.jpg",
+      "PackagePath": "staticwebassets\\Content\\admin\\images\\weather\\weather-bg.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\findshopper.css",
+      "PackagePath": "staticwebassets\\Content\\findshopper.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\switch\\on-off-switch-onload.js",
+      "PackagePath": "staticwebassets\\Content\\switch\\on-off-switch-onload.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\switch\\on-off-switch.css",
+      "PackagePath": "staticwebassets\\Content\\switch\\on-off-switch.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\switch\\on-off-switch.js",
+      "PackagePath": "staticwebassets\\Content\\switch\\on-off-switch.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\Content\\user-256.jpg",
+      "PackagePath": "staticwebassets\\Content\\user-256.jpg"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\css\\DatatableCs\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\css\\DatatableCs\\jquery.dataTables.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\css\\DatatableCs\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\DatatableCs\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\js\\Datatable\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\Datatable\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\js\\Datatable\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\Datatable\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\js\\datatable_file.js",
+      "PackagePath": "staticwebassets\\js\\datatable_file.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\js\\storedatatablejs.js",
+      "PackagePath": "staticwebassets\\js\\storedatatablejs.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\csharpprojects\\LoginDemo\\LoginDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LoginDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LoginDemo.props",
+      "PackagePath": "build\\LoginDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LoginDemo.props",
+      "PackagePath": "buildMultiTargeting\\LoginDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LoginDemo.props",
+      "PackagePath": "buildTransitive\\LoginDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

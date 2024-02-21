@@ -1,0 +1,344 @@
+﻿@model List<LoginDemo.Models.RetailersStoreModel>;
+@{
+    ViewData["Title"] = "ViewClientStores";
+    Layout = "~/Views/Shared/_RSALayout.cshtml";
+}
+<style>
+    [aria-current]:not([aria-current="false"]) {
+        background-color: #abb7b7;
+        border-color: #abb7b7;
+        border-radius: 2px !important;
+        color: #fff;
+    }
+    /* div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+            margin: 2px 0;
+            white-space: nowrap;
+            justify-content: flex-end;
+            background:red;
+        }
+
+    */
+
+
+    .dataTables_paginate {
+        margin-right: 0px !important;
+        float: right;
+        /*  background:whitesmoke;
+            margin: 2px 0;
+            white-space: nowrap;
+            justify-content: flex-end;*/
+
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 0;
+        border-radius: 4px;
+       /* width: 222.14px;*/
+        height: 33.6px;
+    }
+
+    .paginate_button {
+        height: 33.6px;
+        width: 30.6px;
+        color: #fff;
+        align-items: center;
+    }
+
+        .paginate_button:active {
+            box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+        }
+
+        .paginate_button:hover {
+            background-color: lightgray;
+            /* background:red;*/
+        }
+
+        .paginate_button.disabled i {
+            /* background-color: #abb7b7;*/
+            border-color: #abb7b7;
+            border-radius: 2px !important;
+            color: #fff;
+        }
+
+        .paginate_button.active {
+            box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+        }
+        /*  .paginate_button, .paginate_button > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #337ab7;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+    */
+        .paginate_button, .paginate_button > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #fff;
+            text-decoration: none;
+            background-color: #999191;
+            border-right: 1px solid #ddd;
+        }
+
+
+
+
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 65px;
+        display: inline;
+        line-height: 30px;
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 0;
+        border-color: #ddd;
+        text-align: center
+    }
+
+
+    .dataTables_length, div.dataTables_info {
+        margin-left: 15px;
+        display: inline;
+    }
+
+
+
+    /*  .dataTables_filter, .dataTables_paginate input {
+             margin-right: 15px !important;
+            float: right;
+            display: inline;
+            line-height: 30px;
+            padding: 5px;
+            font-size: 13px;
+
+        }*/
+    div.dataTables_wrapper div.dataTables_length select:focus {
+        border-color: #dadada;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px rgba(102,175,233,0);
+    }
+
+
+    .datatable-2_length{
+        width: 67px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ddd;
+    }
+    .sortable:after{
+        font-family:FontAwesome;
+        content:'\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .sortable.asc:after {
+        font-family: FontAwesome;
+        content: '\f0de';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    .sortable.desc:after {
+        font-family: FontAwesome;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 .5em;
+        color: #65BBD6;
+    }
+
+    input[type="search"] {
+        /* margin-right: 15px !important;*/
+       /* float: right;*/
+     /* display: inline;*/
+        line-height: 30px;
+        font-size: 13px;
+        border: 1px solid #ddd;
+    }
+
+    div.dataTables_wrapper div.dataTables_length select {
+        width: 67px;
+        display: inline;
+        line-height: 30px;
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 0;
+        border-color: #ddd;
+        text-align: center;
+        margin-top:5px;
+    }
+
+
+    .dataTables_length, div.dataTables_info {
+       /* margin-left: 15px;*/
+        display: inline;
+       
+    }
+</style>
+
+
+<div class="page-heading">
+    <h1><i class="fa fa-home"></i>&nbsp;<span>Stores</span>
+        <span class="pull-right">
+            <a class="btn btn-default btn-md md-trigger" href="@Url.Action("AddClientStore","Global")">
+                <i class="fa fa-plus"></i>&nbsp;<b>Add Stores</b>
+            </a>
+        </span>
+    </h1>
+</div>
+<div class="row">
+    <div class="col-sm-12 portlets ui-sortable">
+        <div class="widget">
+            <div class="widget-content padding">
+                <div>
+                    @if(Model.Count > 0)
+                    {
+                        <table id="datatable-2" class="table table-bordered table-striped table-hover" cellspacing="0" style="width:99%;">
+                            <thead>
+                                <tr>
+                                    <th class="sortable">Store Name</th>
+                                    <th class="sortable">Store Phone</th>
+                                    <th class="sortable">Address</th>
+                                    <th class="sortable">City</th>
+                                    <th class="sortable">Zip Code</th>
+                                    <th class="sortable">Store Timings</th>
+                                    <th class="no-sort">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model){
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(p => item.StoreName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(p => item.StorePhone)
+                                        </td>
+                                         <td>
+                                            @Html.DisplayFor(p => item.AddressLine1)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(p => item.City)
+                                        </td>
+                                         <td>
+                                            @Html.DisplayFor(p => item.ZipCode)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(p => item.StoreTimings)
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                                                    <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" role="menu" style="right:0px !important;left:auto;">
+                                                  
+                                                    <li>
+                                                       
+
+                                                        @* without edit model*@
+                                                      
+                                                        @*
+                                                <a href="@Url.Action("EditRetailerStoreDetails","Global",new {@RSAClientId=item.RSAClientId})">Edit </a>
+
+                                                        *@
+
+                                                       @*
+                                                <a onclick="EditClientStore('@Url.Action("EditRetailerStoreDetails","Global")','@item.RSAClientId')">Edit </a>
+                                                *@
+                                                       @*
+                                               
+                                                       *@
+
+                                                        <a onclick=" EditClientStore('@item.RSAClientId')">Edit </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                       </table>
+                    }
+                    else
+                    {
+                        <span class="style95" >Client Stores Not Found</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="word-break:break-all;">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="width: 121%!important;">
+            <div class="modal-header">
+             
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2>Edit <strong>Store</strong></h2>
+            </div>
+            <div class="modal-body">
+             <div id="editContent">
+
+             </div>
+            </div>
+           @* <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>*@
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/storedatatablejs.js"></script>
+   
+    <script>
+        $(".sortable").click(function(){
+            alert("red");
+            var o = $(this).hasClass("asc") ? "desc" : "asc";
+            $(".sortable").removeClass("asc").removeClass("desc");
+            $(this).addClass(o);
+        });
+       
+    </script>
+    <script>
+        function EditClientStore(id){
+        
+            $.ajax({
+                method:"GET",
+
+                url: "/Global/EditRetailerStoreDetails?RSAClientId=" + id,
+       
+                success:function(res){
+               
+             
+               //  $("#editModal .modal-body").html(res);
+                  // $("#editModal .modal-body #editContent").html("<p>hellow</p>");
+                    $("#editModal .modal-body #editContent").html(res);
+                    $("#editModal").modal("show");
+                    
+                },
+                
+            })
+        }
+    </script>
+
+ 
+
+}
