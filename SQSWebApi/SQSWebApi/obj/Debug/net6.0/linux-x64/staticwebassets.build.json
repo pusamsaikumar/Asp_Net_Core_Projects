@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ypfvJVLDw7PtFEb8aQ9RdZvHLBevBRHSg1rfk38K6KI=",
+  "Source": "SQSWebApi",
+  "BasePath": "_content/SQSWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

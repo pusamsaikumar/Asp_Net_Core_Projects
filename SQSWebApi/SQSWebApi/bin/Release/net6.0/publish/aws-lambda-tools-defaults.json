@@ -1,0 +1,21 @@
+
+{
+    "region" : "ap-south-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "SQSWebApi",
+    "package-type"  : "Zip",
+    "function-handler" : "SQSWebApi",
+    "function-memory-size" : 512,
+    "function-role"        : "arn:aws:iam::242909465937:role/lambda_exec_SQSWebApi",
+    "function-timeout"     : 15,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : "",
+    "function-description"     : ""
+}
