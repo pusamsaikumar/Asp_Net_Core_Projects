@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EwSEnvOGteNBqDBsrKDdkHK1GPHkzz8Gt4+4CSJ7PGg=",
+  "Source": "JwtRefreshTokenDemo",
+  "BasePath": "_content/JwtRefreshTokenDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
