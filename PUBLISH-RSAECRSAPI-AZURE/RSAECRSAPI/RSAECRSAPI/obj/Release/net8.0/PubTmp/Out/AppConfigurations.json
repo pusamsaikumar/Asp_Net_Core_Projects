@@ -1,0 +1,38 @@
+{
+  "SharedKey": "",
+  "SecretKey": "",
+  "RetailerName": "",
+  "RemoveCheckDigitFromBasketUPC": "0",
+  "MemberNumberLength": "10",
+  "MaxCouponValueForClient": "200",
+  "RSACoreAPIUrl": "",
+  "SystemNotificationsARN": "",
+  "EnableRemoveNCRImpression": "0",
+  "EnterpriseId": "",
+  "EnterpriseSecret": "",
+  "NCRImpressionAPIUrl": "",
+  "UPCCouponTypeIds": "5,12,13",
+  "CrossSellCouponTypeIds": "7,15",
+  "MFRUPCCouponTypeIds": "4",
+  "SetCouponMultiLineIdsToZero": "1",
+  "CrossSellCouponsPurchaseUPCsOrderByAmount": "ASC",
+  "EnableWriteLogs": "1",
+  "EnableEmailNotificationAlerts": "1",
+  "SendTransactionsToCloud": "1",
+  "POSType": "ECRS",
+  "DBInstanceName": "",
+  "DBName": "",
+  "CloudRetailerName": "",
+  "RetailerTimeZone": "CST",
+  "SendTransactionToCloudURL": "",
+  "SendCommitToCloudURL": "",
+  "GetTransactionCloudURL": "",
+  "MoveTransactionToProcessedFolderCloudURL": "",
+  "RetailerConnectionString": "Data Source=DESKTOP-1JNARAI\\SAISQLSERVER;Initial Catalog=RSAECRSAPIDB;uid=sa;Password=sai123",
+  "SqlCommandTimeout": "7",
+  "ApplyOnlyOneBasketCouponFlag": "1",
+  "SaveRealtimeTransactionData": "1"
+}
+
+
+

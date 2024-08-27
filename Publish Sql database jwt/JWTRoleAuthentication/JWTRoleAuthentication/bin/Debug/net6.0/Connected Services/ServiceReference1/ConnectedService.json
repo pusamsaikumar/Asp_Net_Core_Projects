@@ -1,0 +1,33 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:62924/Service1.svc"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "references": [
+      "Dapper, {Dapper, 2.1.35}",
+      "Microsoft.AspNetCore.Authentication.JwtBearer, {Microsoft.AspNetCore.Authentication.JwtBearer, 6.0.0}",
+      "Microsoft.IdentityModel.JsonWebTokens, {Microsoft.IdentityModel.JsonWebTokens, 6.10.0}",
+      "Microsoft.IdentityModel.Logging, {Microsoft.IdentityModel.Logging, 6.11.0}",
+      "Microsoft.IdentityModel.Protocols, {Microsoft.IdentityModel.Protocols, 6.10.0}",
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect, {Microsoft.IdentityModel.Protocols.OpenIdConnect, 6.10.0}",
+      "Microsoft.IdentityModel.Tokens, {Microsoft.IdentityModel.Tokens, 6.11.0}",
+      "Microsoft.OpenApi, {Microsoft.OpenApi, 1.2.3}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 13.0.3}",
+      "Swashbuckle.AspNetCore.Swagger, {Swashbuckle.AspNetCore.Swagger, 6.5.0}",
+      "Swashbuckle.AspNetCore.SwaggerGen, {Swashbuckle.AspNetCore.SwaggerGen, 6.5.0}",
+      "Swashbuckle.AspNetCore.SwaggerUI, {Swashbuckle.AspNetCore.SwaggerUI, 6.5.0}",
+      "System.Data.SqlClient, {System.Data.SqlClient, 4.8.6}",
+      "System.IdentityModel.Tokens.Jwt, {System.IdentityModel.Tokens.Jwt, 6.10.0}",
+      "System.Security.Cryptography.Cng, {System.Security.Cryptography.Cng, 4.5.0}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

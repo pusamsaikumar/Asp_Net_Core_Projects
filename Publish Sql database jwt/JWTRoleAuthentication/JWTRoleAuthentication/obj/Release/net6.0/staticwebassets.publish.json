@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gMBVnhU0a9cuGbfp579YOt30QJNXyzQKpNpquLRmFcs=",
+  "Source": "JWTRoleAuthentication",
+  "BasePath": "_content/JWTRoleAuthentication",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

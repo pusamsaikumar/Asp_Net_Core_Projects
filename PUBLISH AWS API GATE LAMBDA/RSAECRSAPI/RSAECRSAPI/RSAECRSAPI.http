@@ -1,0 +1,8 @@
+@RSAECRSAPI_HostAddress = http://localhost:5010
+
+
+GET {{RSAECRSAPI_HostAddress}}/weatherforecast/
+
+Accept: application/json
+
+###

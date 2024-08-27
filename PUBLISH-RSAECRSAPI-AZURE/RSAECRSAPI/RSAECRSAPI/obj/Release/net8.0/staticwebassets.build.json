@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rXtkwrbR0kNe67yRXn29NY+tjiyblsm/n4AmWnKTJkk=",
+  "Source": "RSAECRSAPI",
+  "BasePath": "_content/RSAECRSAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

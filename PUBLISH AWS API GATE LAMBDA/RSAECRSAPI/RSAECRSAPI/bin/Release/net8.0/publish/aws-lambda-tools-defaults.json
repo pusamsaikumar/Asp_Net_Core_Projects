@@ -1,0 +1,21 @@
+
+{
+    "region" : "ap-south-1",
+    "profile" : "rsaecrsapiuser",
+    "configuration" : "Release",
+    "framework"     : "net8.0",
+    "function-name" : "RSAECRSAPI",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-handler"     : "RSAECRSAPI",
+    "function-memory-size" : 512,
+    "function-role"        : "arn:aws:iam::058264471642:role/lambda_exec_RSAECRSAPI",
+    "function-timeout"     : 15,
+    "function-runtime"     : "dotnet8",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}

@@ -1,0 +1,14 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : false,
+    "application"    : "rsaecrsapirds",
+    "environment"    : "Rsaecrsapirds-env",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : ""
+}

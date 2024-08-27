@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\controllers\\ecrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\controllers\\ecrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\appconfigurations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\appconfigurations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\ecrsdal\\models\\sqlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\ecrsdal\\models\\sqlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\ecrsdal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\ecrsdal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\ecrsbll\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\ecrsbll\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|d:\\aws rds with elastic beanstalk published\\rsaecrsapi\\rsaecrsapi\\ecrsbll\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C07F08FF-D8B5-4B4E-80D4-D8BA53A31DA7}|RSAECRSAPI\\RSAECRSAPI.csproj|solutionrelative:rsaecrsapi\\ecrsbll\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 18,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1295457661:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{84b8a1b5-38c4-49b3-8142-8da39653acf2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 5,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\StartUp.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\StartUp.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\StartUp.cs",
+              "RelativeToolTip": "RSAECRSAPI\\StartUp.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:27:32.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppConfigurations.json",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\AppConfigurations.json",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\AppConfigurations.json",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\AppConfigurations.json",
+              "RelativeToolTip": "RSAECRSAPI\\AppConfigurations.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T11:27:28.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlHelpers.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSDAL\\Models\\SqlHelpers.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\ECRSDAL\\Models\\SqlHelpers.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSDAL\\Models\\SqlHelpers.cs",
+              "RelativeToolTip": "RSAECRSAPI\\ECRSDAL\\Models\\SqlHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:26:54.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSDAL\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\ECRSDAL\\Models\\Student.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSDAL\\Models\\Student.cs",
+              "RelativeToolTip": "RSAECRSAPI\\ECRSDAL\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:26:15.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\appsettings.json",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\appsettings.json",
+              "RelativeToolTip": "RSAECRSAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T11:09:17.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "RSAECRSAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwDQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:08:52.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ECRSController.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Controllers\\ECRSController.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\Controllers\\ECRSController.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Controllers\\ECRSController.cs",
+              "RelativeToolTip": "RSAECRSAPI\\Controllers\\ECRSController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:08:57.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\Program.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\Program.cs",
+              "RelativeToolTip": "RSAECRSAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:09:15.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSBLL\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\ECRSBLL\\ITransactionService.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSBLL\\ITransactionService.cs",
+              "RelativeToolTip": "RSAECRSAPI\\ECRSBLL\\ITransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:09:00.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSBLL\\TransactionService.cs",
+              "RelativeDocumentMoniker": "RSAECRSAPI\\ECRSBLL\\TransactionService.cs",
+              "ToolTip": "D:\\AWS RDS WITH ELASTIC BEANSTALK PUBLISHED\\RSAECRSAPI\\RSAECRSAPI\\ECRSBLL\\TransactionService.cs",
+              "RelativeToolTip": "RSAECRSAPI\\ECRSBLL\\TransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:08:59.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
