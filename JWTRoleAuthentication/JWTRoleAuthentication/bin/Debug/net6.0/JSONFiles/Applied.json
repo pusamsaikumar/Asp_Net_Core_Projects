@@ -1,0 +1,481 @@
+{
+  "NewApplied": [
+        {
+          "couponId": "9060",
+          "externalId": "9060",
+          "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+          "items": [
+            
+            {
+              "lineId": "3",
+              "discount": 0,
+              "quantity": 1
+            },
+            {
+              "lineId": "4",
+              "discount": 0,
+              "quantity": 1
+            },
+            {
+              "lineId": "5",
+              "discount": 0,
+              "quantity": 1
+            }
+          ],
+          "totalDiscount": 0.7,
+          "reducesTax": true
+        }
+  ],
+  "OldApplied": [
+
+    {
+      "couponId": "9060",
+      "externalId": "9060",
+      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+      "items": [
+       
+        {
+          "lineId": "3",
+          "discount": 0,
+          "quantity": 1
+        },
+        {
+          "lineId": "4",
+          "discount": 0,
+          "quantity": 1
+        },
+        {
+          "lineId": "5",
+          "discount": 0,
+          "quantity": 1
+        }
+      ],
+      "totalDiscount": 0.7,
+      "reducesTax": true
+    }
+  ]
+}
+
+
+
+
+//{
+
+//  "NewApplied": [
+
+
+
+//    {
+//      "couponId": "9060",
+//      "externalId": "9060",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.6,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9061",
+//      "externalId": "9061",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+
+//    {
+//      "couponId": "9062",
+//      "externalId": "9062",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9064",
+//      "externalId": "9064",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "9",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "10",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+
+//    {
+//      "couponId": "9065",
+//      "externalId": "9065",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9066",
+//      "externalId": "9066",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9067",
+//      "externalId": "9067",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "5",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9068",
+//      "externalId": "9068",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "1",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "2",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+
+//        {
+//          "lineId": "3",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "4",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    }
+
+
+
+
+
+
+
+
+
+
+
+//  ],
+//  "OldApplied": [
+
+
+//    {
+//      "couponId": "9060",
+//      "externalId": "9060",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.6,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9061",
+//      "externalId": "9061",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.6,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9063",
+//      "externalId": "9063",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9064",
+//      "externalId": "9064",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9065",
+//      "externalId": "9065",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "8",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+
+//    {
+//      "couponId": "9066",
+//      "externalId": "9066",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+
+//    {
+//      "couponId": "9067",
+//      "externalId": "9067",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "4",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+
+//        {
+//          "lineId": "5",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    },
+//    {
+//      "couponId": "9068",
+//      "externalId": "9068",
+//      "receiptAlias": "$0.20 OFF Body Armor 16oz Bottles",
+//      "items": [
+//        {
+//          "lineId": "5",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+
+//        {
+//          "lineId": "6",
+//          "discount": 0,
+//          "quantity": 1
+//        },
+//        {
+//          "lineId": "7",
+//          "discount": 0,
+//          "quantity": 1
+//        }
+//      ],
+//      "totalDiscount": 0.7,
+//      "reducesTax": true
+//    }
+
+
+
+
+
+
+//  ]
+//}

@@ -1,0 +1,7 @@
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\bin\WcfService1.dll.config
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\bin\WcfService1.dll
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\bin\WcfService1.pdb
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\obj\Debug\WcfService1.dll
+D:\csharpprojects\JWTRoleAuthentication\WcfService1\obj\Debug\WcfService1.pdb

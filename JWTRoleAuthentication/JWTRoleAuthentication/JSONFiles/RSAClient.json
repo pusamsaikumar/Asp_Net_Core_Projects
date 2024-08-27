@@ -1,0 +1,89 @@
+[
+  {
+    "RSAClientId": 1,
+    "RSAClientName": "Client one",
+    "Stores": "store one",
+    "UserName": "pusamsaikumar@gmail.com",
+    "Email": "pusamsaikumar@gmail.com",
+    "MobileNumber": "9959608677",
+    "Address": "Manikonda",
+
+    "SharedKey": "saikumar123",
+    "SecretKey": "1994sai",
+    "ServerName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DatabaseName": "AuthenticationDB",
+    "UserId": "sa",
+    "Password": "sai123"
+
+  },
+  {
+    "RSAClientId": 2,
+    "RSAClientName": "Client two",
+    "Stores": "store two",
+    "UserName": "vinay@gmail.com",
+    "Email": "vinay@gmail.com",
+    "MobileNumber": "9959608678",
+    "Address": "Khammam",
+
+    "SharedKey": "vinay127",
+    "SecretKey": "vinay123",
+    "ServerName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DatabaseName": "AuthenticationDB",
+    "UserId": "sa",
+    "Password": "sai123"
+
+  },
+  {
+    "RSAClientId": 3,
+    "RSAClientName": "Client three",
+    "Stores": "store three",
+    "UserName": "vijay@gmail.com",
+    "Email": "vijay@gmail.com",
+    "MobileNumber": "9959608679",
+    "Address": "Hyderabad",
+
+    "SharedKey": "vijay123",
+    "SecretKey": "vijaypusam",
+    "ServerName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DatabaseName": "AuthenticationDB",
+    "UserId": "sa",
+    "Password": "sai123"
+
+  },
+  {
+    "RSAClientId": 4,
+    "RSAClientName": "Client four",
+    "Stores": "store four",
+    "UserName": "ashok@gmail.com",
+    "Email": "ashok@gmail.com",
+    "MobileNumber": "9959608676",
+    "Address": "Hyderabad",
+
+    "SharedKey": "ashok123",
+    "SecretKey": "ashoknupa",
+    "ServerName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DatabaseName": "AuthenticationDB",
+    "UserId": "sa",
+    "Password": "sai123"
+
+
+  },
+  {
+    "RSAClientId": 5,
+    "RSAClientName": "Client five",
+    "Stores": "store five",
+    "UserName": "rajesh@gmail.com",
+    "Email": "rajesh@gmail.com",
+    "MobileNumber": "9959608678",
+    "Address": "Miyapur",
+
+    "SharedKey": "rajesh123",
+    "SecretKey": "rajeshnupa",
+    "ServerName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DatabaseName": "AuthenticationDB",
+    "UserId": "sa",
+    "Password": "sai123"
+
+
+  }
+]
