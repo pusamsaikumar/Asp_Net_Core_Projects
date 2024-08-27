@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\jwtrolebaseauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\jwtrolebaseauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\commonlayer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\commonlayer\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\dataaccesslayer\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\dataaccesslayer\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\commonlayer\\models\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\commonlayer\\models\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\dataaccesslayer\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\dataaccesslayer\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\commonlayer\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\commonlayer\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|d:\\csharpprojects\\jwtrolebaseauthentication\\jwtrolebaseauthentication\\commonlayer\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F4BA24-998F-4605-816B-99E6BE5778A3}|JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj|solutionrelative:jwtrolebaseauthentication\\commonlayer\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1295457661:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{84b8a1b5-38c4-49b3-8142-8da39653acf2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 15,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\Register.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\Register.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:36:28.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthRepo.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\DataAccessLayer\\AuthRepo.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\DataAccessLayer\\AuthRepo.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\DataAccessLayer\\AuthRepo.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\DataAccessLayer\\AuthRepo.cs",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAnwPUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:55:13.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\StartUp.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\StartUp.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\StartUp.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\StartUp.cs",
+              "ViewState": "AQIAABkBAAAAAAAAAAAYwDgBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:35:33.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\appsettings.json",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\appsettings.json",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T18:44:40.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JWTRoleBaseAuthentication.csproj",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T18:37:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:03:10.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAE0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:38:36.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\Program.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\Program.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:40:57.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\Helpers.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\Helpers.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\Helpers.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\Helpers.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAIAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:52:05.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TokenModel.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\TokenModel.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\TokenModel.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\TokenModel.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\TokenModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:37:24.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthRepo.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\DataAccessLayer\\IAuthRepo.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\DataAccessLayer\\IAuthRepo.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\DataAccessLayer\\IAuthRepo.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\DataAccessLayer\\IAuthRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:55:39.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\AppSettings.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\AppSettings.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:37:08.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\csharpprojects\\JWTRoleBaseAuthentication\\JWTRoleBaseAuthentication\\CommonLayer\\Models\\LoginModel.cs",
+              "RelativeToolTip": "JWTRoleBaseAuthentication\\CommonLayer\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:36:53.02Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
